@@ -1,11 +1,30 @@
 title: Frankland Lab
 description: Neurobiology Laboratory at the Hospital for Sick Children
 
-headlineMain: Welcome to the Frankland Lab
-headlineSmall:  Hospital for Sick Children
+# Header Image
+# To change the header background image, please rename your file header.png and
+# place in the img/ folder
 
+headlineMain: Welcome to the Frankland Lab
+headlineSmall:  The Hospital for Sick Children
+
+#Research Themes
+#change images size by going to includes/research.html and changing width and height
+theme1: Remote Memory
+theme1_blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+theme1_img: img/research/theme1.jpg
+
+theme2: Neurogenesis and Forgetting
+theme2_blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+theme2_img: img/research/theme2.jpg
+
+
+#Settings, don't change typically
 plugins_dir: _plugins
 
 markdown: kramdown
 permalink: pretty
 future: true
+
+exclude: [pdfs]
+keep_files: [pdfs]

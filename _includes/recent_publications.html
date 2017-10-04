@@ -1,0 +1,26 @@
+<section class="bg-light" id="publications">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Publications</h2>
+        <h3 class="section-subheading text-muted">Click for PDF</h3>
+      </div>
+    </div>
+        <div class="row">
+        {% for pub in site.data.papers limit:5 %}
+        {% assign loopindex = forloop.index0 | modulo: 3 %}
+        {% if loopindex == 0 %}
+        {% if forloop.first == false %}
+        </div>
+        {% if forloop.last == false %}
+        <div class="row">
+        {% endif %}
+        {% endif %}
+        {% endif %}
+                <p><strong><a href="{{ site.url }}/{{ pub.link }}">{{ pub.author }}</a></strong> {{ pub.title }}</p>
+        {% endfor %}
+        </div>
+    <br>
+    <h4><a href="{{ site.url }}/publications/">All Publications</a></h4>
+  </div>
+</section>

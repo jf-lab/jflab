@@ -1,0 +1,41 @@
+- name: Axel Guskjolen
+  position: PhD Candidate
+  img_id: axel.jpg
+  hometown: Saskatoon, SK
+  interests:
+    - Ants
+
+- name: Frances Xia
+  position: PhD Candidate
+  img_id: frances.jpg
+  hometown: Vancouver, BC
+  interests:
+    - (Good) Coffee
+
+- name: Patrick Steadman
+  position: PhD Candidate
+  img_id: patrick.jpg
+  hometown: Etobicoke, ON
+  interests:
+    - Policy
+
+- name: Lina Tran
+  position: PhD Candidate
+  img_id: lina.jpg
+  hometown: Toronto, ON
+  interests:
+    - Peak TV
+
+- name: Adam Ramsaran
+  position: PhD Student
+  img_id: adamr.jpg
+  hometown: Someware, Delaware
+  interests:
+    - Whomp it Up (Podcast)
+
+- name: Moushumi Nath
+  position: MSc Candidate
+  img_id: mushi.jpg
+  hometown: Montreal, QC
+  interests:
+    - Freebies

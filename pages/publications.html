@@ -1,0 +1,15 @@
+---
+layout: page
+title: 'Publications'
+permalink: /publications/
+---
+<div class="container">
+    {% for pub in site.data.papers %}
+      {% assign currentdate = pub.year %}
+      {% if currentdate != date %}
+        <h3>{{ currentdate }}</h3>
+        {% assign date = currentdate %}
+      {% endif %}
+        <a href="{{ site.url }}/{{ pub.link }}"><strong>{{ pub.author }}</strong> {{ pub.title }}</a><br>
+    {% endfor %}
+</div>

@@ -1,0 +1,27 @@
+- name: Gisella Vetere
+  position: Post-Doc
+  img_id: gisella.jpg
+  hometown:  Rome, Italy
+
+- name: Justin Kenney
+  position: Post-Doc
+  img_id: justin.jpg
+  hometown: Whitehouse Station, NJ
+
+- name: Risako Fujikawa
+  position: Post-Doc
+  img_id: risako.jpg
+  hometown: Fukushima, Japan
+
+- name: Jagroop Dhaliwal
+  position: Post-Doc
+  img_id: jagroop.jpg
+  hometown: Ottawa, ON
+
+- name: Cadou Buren
+  position: Post-Doc
+  img_id: cadou.jpg
+
+- name: Cesar
+  position: Post-Doc
+  img_id: cesar.jpg
