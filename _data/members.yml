@@ -1,0 +1,15 @@
+- name: Paul Frankland
+  position: PI
+  img_id: pfrankland
+
+- name: Toni DeCristofaro
+  position: Lab Manager
+  img_id: toni
+
+- name: Frances Xia
+  position: PhD Candidate
+  img_id: frances
+  hometown: Vancouver, B.C.
+  interests:
+    - coffee
+    - Interneurons

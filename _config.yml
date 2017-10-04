@@ -1,0 +1,11 @@
+title: Frankland Lab
+description: Neurobiology Laboratory at the Hospital for Sick Children
+
+headlineMain: Welcome to the Frankland Lab
+headlineSmall:  Hospital for Sick Children
+
+plugins_dir: _plugins
+
+markdown: kramdown
+permalink: pretty
+future: true

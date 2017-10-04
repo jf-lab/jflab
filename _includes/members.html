@@ -1,0 +1,42 @@
+<section id="who-we-are" class="bg-light-gray">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-12 text-center">
+                 <h2 class="section-heading">Lab Members</h2>
+             </div>
+         </div>
+         {% for member in site.data.members %}
+         {% assign loopindex = forloop.index0 | modulo: 3 %}
+         {% if loopindex == 0 %}
+         {% if forloop.first == false %}
+         </div>
+         {% endif %}
+         <div class="row">
+             <div class="col-sm-4 col-sm-offset-1half">
+         {% else %}
+             <div class="col-sm-4">
+         {% endif %}
+                 <div class="team-member">
+                     <img class="mx-auto rounded-circle" src="img/team/{{ member.img_id}}.jpg" alt="">
+                     <h4>{{ member.name }}</h4>
+                     <p class="text-muted">{{ member.position }}</p>
+                     {% if member.hometown %}
+                     <p class="text-muted"><i>{{ member.hometown }}</i></p>
+                     {% endif %}
+                     {% if member.interests %}
+                     Interests:
+                     <ul class="list-inline text-muted">
+                         {% for interest in member.interests %}
+                         <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
+                         {% endfor %}
+                     </ul>
+                     {% endif %}
+                 </div>
+             </div>
+         {% if forloop.last == true %}
+         </div>
+         {% endif %}
+         {% endfor %}
+
+  </div>
+</section>
