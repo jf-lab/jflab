@@ -1,0 +1,18 @@
+<section id="blog" class="bg-light-gray">
+<div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Recent Postings</h2>
+      </div>
+    </div>
+    <div class="col-lg-12 text-left team-member">
+      {% for post in site.posts reversed limit:5 %}
+        {% if post.visible %}
+              <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+              <div class='text-muted'>{{ post.date | date: "%-d %B %Y"}}<br>
+                  {{ post.content }}
+              </div>
+        {% endif %}
+      {% endfor %}
+</div>
+</section>

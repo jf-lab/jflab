@@ -18,12 +18,18 @@ theme2: Neurogenesis and Forgetting
 theme2_blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 theme2_img: img/research/theme2.jpg
 
+#Site Categories
+category:
+  - publications
+  - photos
+  - announcements
+  - misc
 
 #Settings, don't change typically
 plugins_dir: _plugins
 
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:year/:title.html
 future: true
 
 exclude: [pdfs]

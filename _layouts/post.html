@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class="sticky-footer">
+
+  {% include head-post.html %}
+
+  <body id="page-top" class="index no-header sticky-footer">
+    {% include navbar-page.html %}
+
+    <div class="content container">
+      <div class="page">
+        <br>
+        <h2 class="section-subheading">{{ page.title }}</h2>
+        <p class="section-subheading text-muted">Posted: {{ page.date | date: '%B %d, %Y' }}</p>
+        <hr>
+
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include js-post.html %}
+  </body>
+</html>
