@@ -1,3 +1,11 @@
 - name: Toni DeCristofaro
   position: Lab Manager
   img_id: toni.jpg
+
+- name: Daisy Lin
+  position: Lab Technician
+  img_id: daisy.jpg
+
+- name: Daniel Li
+  position: Lab Technician
+  img_id: daniel.jpg
