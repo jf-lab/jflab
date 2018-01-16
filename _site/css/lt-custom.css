@@ -348,13 +348,14 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
-.team-member {
-  margin-bottom: 50px;
-  text-align: center; }
-  .team-member img {
+.team-img {
     width: 225px;
     height: 225px;
     border: 7px solid white; }
+    
+.team-member {
+  margin-bottom: 50px;
+  text-align: center; }
   .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;

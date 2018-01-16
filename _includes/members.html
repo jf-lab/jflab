@@ -9,23 +9,27 @@
              <div class="col-sm-12 text-center">
              <h3>Primary Investigator</h3>
                  <div class="team-member">
-                     <img class="mx-auto rounded-circle" src="img/team/{{ site.data.pi.img_id}}" alt="">
+                     <img class="mx-auto team-img rounded-circle" src="img/team/{{ site.data.pi.img_id}}" alt="">
+                     <p class="text-muted">
                      <h4>{{ site.data.pi.name }}</h4>
-                     <p class="text-muted">{{ site.data.pi.position }}</p>
-                     {% if member.hometown %}
-                     <p class="text-muted"><i>{{ site.data.pi.hometown }}</i></p>
+                     {{ site.data.pi.position }}
+                     {% if site.data.pi.hometown %}
+                     <i>{{ site.data.pi.hometown }}</i>
                      {% endif %}
                      {% if site.data.pi.interests %}
                      Interests:
-                     <ul class="list-inline text-muted">
+                     <ul class="list-inline">
                          {% for interest in site.data.pi.interests %}
                          <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                          {% endfor %}
                      </ul>
-                     {% endif %}
+
+                    {% endif %}
+                    </p>
                  </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-12 text-center">
             <h3>Techs & Staff</h3>
@@ -41,20 +45,19 @@
              <div class="col-sm-4">
          {% endif %}
                  <div class="team-member">
-                     <img class="mx-auto rounded-circle" src="img/team/{{ member.img_id}}" alt="">
+                     <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
                      <h4>{{ member.name }}</h4>
-                     <p class="text-muted">{{ member.position }}</p>
-                     {% if member.hometown %}
-                     <p class="text-muted"><i>{{ member.hometown }}</i></p>
-                     {% endif %}
-                     {% if member.interests %}
-                     Interests:
-                     <ul class="list-inline text-muted">
+                     <p class="text-muted">{{ member.position }}<br>
+                     {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
+                     {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
+                     {% if member.interests %}Interests:
+                     <ul class="list-inline">
                          {% for interest in member.interests %}
                          <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                          {% endfor %}
                      </ul>
                      {% endif %}
+                     </p>
                  </div>
              </div>
          {% if forloop.last == true %}
@@ -77,20 +80,19 @@
               <div class="col-sm-4">
           {% endif %}
                   <div class="team-member">
-                      <img class="mx-auto rounded-circle" src="img/team/{{ member.img_id}}" alt="">
+                      <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
                       <h4>{{ member.name }}</h4>
-                      <p class="text-muted">{{ member.position }}</p>
-                      {% if member.hometown %}
-                      <p class="text-muted"><i>{{ member.hometown }}</i></p>
-                      {% endif %}
-                      {% if member.interests %}
-                      Interests:
-                      <ul class="list-inline text-muted">
+                      <p class="text-muted">{{ member.position }}<br>
+                      {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
+                      {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
+                      {% if member.interests %}Interests:
+                      <ul class="list-inline">
                           {% for interest in member.interests %}
                           <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                           {% endfor %}
                       </ul>
                       {% endif %}
+                      </p>
                   </div>
               </div>
           {% if forloop.last == true %}
@@ -113,20 +115,19 @@
                <div class="col-sm-4">
            {% endif %}
                    <div class="team-member">
-                       <img class="mx-auto rounded-circle" src="img/team/{{ member.img_id}}" alt="">
+                       <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
                        <h4>{{ member.name }}</h4>
-                       <p class="text-muted">{{ member.position }}</p>
-                       {% if member.hometown %}
-                       <p class="text-muted"><i>{{ member.hometown }}</i></p>
-                       {% endif %}
-                       {% if member.interests %}
-                       Interests:
-                       <ul class="list-inline text-muted">
+                       <p class="text-muted">{{ member.position }}<br>
+                       {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
+                       {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
+                       {% if member.interests %}Interests:
+                       <ul class="list-inline">
                            {% for interest in member.interests %}
                            <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                            {% endfor %}
                        </ul>
                        {% endif %}
+                       </p>
                    </div>
                </div>
            {% if forloop.last == true %}
