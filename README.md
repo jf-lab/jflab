@@ -32,3 +32,9 @@ Edit each as appropriate.
 Copy the template.md under pages/ to make your new page.  
 If you use `permalink: /title/` tag, the link will be site.com/title/
 
+### Making a new post
+
+Copy the template.md under `_posts/` to make your new post.
+Fill in the correct info and you're done, files must be named according to `YYYY-MM-DD-title.md`
+
+_This site was modified from https://github.com/y7kim/agency-jekyll-theme_
