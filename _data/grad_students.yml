@@ -4,7 +4,7 @@
   contact:
   hometown: Saskatoon, SK
   interests:
-    - Ants
+    - ":ant:"
 
 - name: Frances Xia
   position: PhD Candidate
@@ -27,13 +27,13 @@
   img_id: lina.jpg
   hometown: Toronto, ON
   interests:
-    - Peak TV
+    - "plant parenthood :cactus:"
 
 - name: Adam Ramsaran
   position: PhD Student
   img_id: adamr.jpg
   contact:
-  hometown: Someware, Delaware
+  hometown: Newark, Delaware
   interests:
     - Whomp it Up (Podcast)
 

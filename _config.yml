@@ -26,8 +26,6 @@ category:
   - misc
 
 #Settings, don't change typically
-plugins_dir: _plugins
-
 markdown: kramdown
 permalink: /:categories/:year/:title.html
 future: true
