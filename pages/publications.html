@@ -3,6 +3,9 @@ layout: page
 title: 'Publications'
 permalink: /publications/
 ---
+Click for pdf download, or link.
+<br>
+<br>
 <div class="container">
     {% for pub in site.data.papers %}
       {% assign currentdate = pub.year %}
@@ -10,6 +13,10 @@ permalink: /publications/
         <h3>{{ currentdate }}</h3>
         {% assign date = currentdate %}
       {% endif %}
+      {% if pub.alt_link %}
+        <a href="{{ pub.alt_link }}"><strong>{{ pub.author }}</strong> {{ pub.title }}</a> (link only)<br>
+      {% else %}
         <a href="{{ site.url }}/{{ pub.link }}"><strong>{{ pub.author }}</strong> {{ pub.title }}</a><br>
+      {% endif %}
     {% endfor %}
 </div>
