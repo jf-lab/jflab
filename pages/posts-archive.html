@@ -1,10 +1,41 @@
 ---
 layout: page
 title: Blog Posts
+permalink: /archive/
 ---
+<div class="row">
+<div class="col-sm-6">
+<h2>Chronological</h2>
+<ul>
+  {% assign post_list = site.posts | sort: 'title' %}
+  {% for node in post_list %}
+    {% if node.title != null %}
+      {% if node.visible == true %}
+          <li><a href="{{ site.url }}{{ node.url }}">{{ node.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}  <!-- node -->
+</ul>
+</div>
 
-{% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-    </a>
-{% endfor %}
+
+<div class="col-sm-6">
+<h2>Tags</h2>
+{% for cat in site.category %}
+<h3>{{ cat | capitalize }}</h3>
+
+<ul>
+  {% assign post_list = site.posts | sort: 'title' %}
+  {% for node in post_list %}
+    {% if node.title != null %}
+      {% if node.visible == true %}
+        {% if node.tags contains cat %}
+          <li><a href="{{ site.url }}{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}  <!-- node -->
+</ul>
+{% endfor %}  <!-- level -->
+</div>
+</div>

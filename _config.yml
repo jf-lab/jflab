@@ -11,11 +11,11 @@ headlineSmall:  The Hospital for Sick Children
 #Research Themes
 #change images size by going to includes/research.html and changing width and height
 theme1: Remote Memory
-theme1_blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+theme1_blurb: Our lab focuses on how remote memories are organized in the cortex, and the molecular and cellular events that underlie their consolidation.
 theme1_img: img/research/theme1.jpg
 
 theme2: Neurogenesis and Forgetting
-theme2_blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+theme2_blurb: Our lab is interested in how these new neurons contribute to hippocampal memory function. In particular we are interested in how new neurons regulate clearance of memories from the hippocampus (or forgetting).
 theme2_img: img/research/theme2.jpg
 
 #Site Categories
@@ -26,11 +26,13 @@ category:
   - misc
 
 #Settings, don't change typically
-plugins_dir: _plugins
-
 markdown: kramdown
 permalink: /:categories/:year/:title.html
 future: true
 
 exclude: [pdfs]
 keep_files: [pdfs]
+
+gems:
+  - jemoji
+  - jekyll-twitter-plugin
