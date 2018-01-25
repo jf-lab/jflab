@@ -1,7 +1,11 @@
 - name: Gisella Vetere
   position: Post-Doc
   contact: gisella.vetere@gmail.com
+<<<<<<< HEAD
   img_id: gisella.png
+=======
+  img_id: gisella.jpg
+>>>>>>> ba9bf6ad9b2edd2482e9f96bed50a46432c94330
   hometown:  Rome, Italy
 
 - name: Justin Kenney
@@ -32,4 +36,8 @@
   position: Post-Doc
   contact:
   img_id: adamm.jpg
+<<<<<<< HEAD
   hometown:
+=======
+  hometown: 
+>>>>>>> ba9bf6ad9b2edd2482e9f96bed50a46432c94330
