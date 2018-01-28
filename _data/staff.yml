@@ -1,14 +1,17 @@
 - name: Toni DeCristofaro
   position: Lab Manager
+  hometown: Toronto, Ontario
   img_id: toni.jpg
 
 - name: Mika Yamamoto
   position: Lab Technician
   img_id: mika.jpg
+  hometown: Osaka, Japan
 
 - name: Daisy Lin
   position: Lab Technician
   img_id: daisy.jpg
+  hometown: Beijing, China
 
 - name: Daniel Li
   position: Lab Technician

@@ -1,14 +1,19 @@
+- name: Jonathan Epp
+  position: Post-Doctoral Fellow
+  current: Assistant Professor, University of Calgary
+
 - name: Lyn Van Kampen
   position: MSc Student
 
 - name: Bonny Hou
-  position: MSc Student
+  position: Dentistry, McGill University
 
 - name: Aijing Gao
   position: MSc Student
 
 - name: Adam Santoro
   position: PhD Student
+  current: Google Deep Mind, London, UK
 
 - name: Jana Husse
   position: Post-Doctoral Fellow
@@ -33,21 +38,25 @@
 
 - name: Blake Richards
   position: Post-Doctoral Fellow
+  current: Assistant Professor, University of Toronto
 
 - name: Alonso Martinez-Canabal
   position: PhD Student
 
 - name: Maithe Arruda-Carvalho
   position: PhD Student
+  current: Assistant Professor, University of Toronto
 
 - name: Jason Snyder
   position: Post-Doctoral Fellow
+  current: Assistant Professor, University of British Columbia
 
 - name: Katherine Akers
   position: Post-Doctoral Fellow
 
 - name: Anne Wheeler
   position: PhD Student
+  current: Assistant Professor, University of Toronto
 
 - name: Masanori Sakaguchi
   position: Post-Doctoral Fellow
@@ -75,6 +84,7 @@
 
 - name: Nohjin Kee
   position: Post-Doctoral Fellow
+  current: Assistant Professor, University of Toronto
 
 - name: Szu Han Wang
   position: Post-Doctoral Fellow

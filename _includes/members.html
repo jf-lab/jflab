@@ -17,8 +17,9 @@
                      <i>{{ site.data.pi.hometown }}</i>
                      {% endif %}
                      {% if site.data.pi.interests %}
-                     Interests:
+
                      <ul class="list-inline">
+                          Interests:<br>
                          {% for interest in site.data.pi.interests %}
                          <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                          {% endfor %}
@@ -32,7 +33,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
             <h3>Techs & Staff</h3>
-             {% for member in site.data.techs %}
+             {% for member in site.data.staff %}
                  {% assign loopindex = forloop.index0 | modulo: 3 %}
                  {% if loopindex == 0 %}
                  {% if forloop.first == false %}
@@ -49,8 +50,9 @@
                      <p class="text-muted">{{ member.position }}<br>
                      {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
                      {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
-                     {% if member.interests %}Interests:
+                     {% if member.interests %}
                      <ul class="list-inline">
+                         Interests:<br>
                          {% for interest in member.interests %}
                          <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                          {% endfor %}
@@ -65,6 +67,8 @@
                  {% endfor %}
         </div>
 <!--Trainees-->
+<!--Post-Docs-->
+
          <div class="row">
              <div class="col-sm-12 text-center">
              <h3>Post-Doctoral Fellows</h3>
@@ -85,8 +89,9 @@
                       <p class="text-muted">{{ member.position }}<br>
                       {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
                       {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
-                      {% if member.interests %}Interests:
+                      {% if member.interests %}
                       <ul class="list-inline">
+                           Interests:<br>
                           {% for interest in member.interests %}
                           <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                           {% endfor %}
@@ -120,8 +125,9 @@
                        <p class="text-muted">{{ member.position }}<br>
                        {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
                        {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
-                       {% if member.interests %}Interests:
+                       {% if member.interests %}
                        <ul class="list-inline">
+                           Interests:<br>
                            {% for interest in member.interests %}
                            <li class="fa fa-angle-right">&nbsp;{{ interest }}</li><br>
                            {% endfor %}
@@ -134,6 +140,29 @@
            </div>
            {% endif %}
            {% endfor %}
+<!--Undergraduates-->
+            <div class="row">
+                 <div class="col-sm-12 text-center">
+                 <h3>Undergraduate Students</h3>
+              {% for member in site.data.undergrads %}
+              {% assign loopindex = forloop.index0 | modulo: 3 %}
+              {% if loopindex == 0 %}
+                  {% if forloop.first == false %}
+                  </div>
+                  {% endif %}
+                  <div class="row">
+                      <div class="col-sm-4 col-sm-offset-1half">
+                      {% else %}
+                      <div class="col-sm-4">
+              {% endif %}
+                      <div class="team-member">
+                          <h4>{{ member.name }}</h4>
+                      </div>
+                  </div>
+              {% if forloop.last == true %}
+              </div>
+              {% endif %}
+              {% endfor %}
 <!--alumni-->
             <h4>Where are they now?</h4>
             <p class="text-muted">Check out this map of former Jossenlyn/Frankland lab members who have assistant professor level positions around the world</p>

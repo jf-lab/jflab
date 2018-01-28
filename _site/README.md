@@ -25,7 +25,7 @@ In the `_data/` folder, edit the file papers.yml with new publications. All tags
 ### Changing Members
 In the `_data/` folder, there are four files, pi.yml, techs.yml, grad_students.yml, and alumni.yml
 Edit each as appropriate.
-`img_id` must match the name of the member photo in the img/ folder (exclude file extension)
+`img_id` must match the name of the member photo in the img/ folder (plus file extension, e.g. `img_id: paul.png`)
 
 ### Making a new page
 

@@ -20,11 +20,12 @@ permalink: /alumni/
          {% endif %}
                  <div class="team-member">
                      <h4>{{ member.name }}</h4>
-                     <p class="text-muted">{{ member.position }}</p>
+                     <p class="text-muted">{{ member.position }}<br>
                      {% if member.current %}
-                         <p class="text-muted">Currently: <br>
-                             {{ member.current }}</p>
+                         Currently:
+                             {{ member.current }}
                      {% endif %}
+                     </p>
                  </div>
              </div>
          {% if forloop.last == true %}
