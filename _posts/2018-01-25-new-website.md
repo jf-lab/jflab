@@ -5,4 +5,4 @@ date: 2018-01-25
 tags: misc
 visible: true
 ---
-Welcome to the new Frankland Lab website. If you're curious how we made it, you can check out our [GitHub page](https://github.com/jf-lab/franklandlab).
+Welcome to the new Frankland Lab website. It's still undergoing some changes so feel free to let us know if you see any problems via our [GitHub page](https://github.com/jf-lab/franklandlab). There, you can also see how this site was made.
