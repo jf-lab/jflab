@@ -8,7 +8,7 @@
     </div>
         <div class="row">
         {% for pub in site.data.papers limit:5 %}
-            <p><strong><a href="{{ site.url }}/{{ pub.link }}">{{ pub.author }}</a></strong> {{ pub.title }}</p>
+            <p><strong><a href="{{ site.url }}/{{ pub.link }}">{{ pub.author }} ({{ pub.year }})</a></strong> {{ pub.title }}</p>
         {% endfor %}
         </div>
     <br>
