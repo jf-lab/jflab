@@ -16,18 +16,18 @@
   img_id: risako.jpg
   hometown: Fukuoka, Japan
   interests:
-      - eating meat
-      - taking pictures
+      - Eating meat
+      - Taking pictures
 
 - name: Jagroop Dhaliwal
   position: Post-Doc
   contact:
   img_id: jagroop.jpg
   interests:
-      - reading
-      - food (desserts)
-      - watching hockey
-      - movies
+      - Reading
+      - Food (desserts)
+      - Watching hockey
+      - Movies
   hometown: New Delhi, India; Ottawa, ON
 
 - name: Cesar Coelho
@@ -40,4 +40,9 @@
   position: Post-Doc
   contact:
   img_id: adamm.jpg
-  hometown:
+  hometown: Chicago, IL, USA
+  interests:
+      - Soccer
+      - Hiking
+      - Dogs
+      - "Spotify: ampm001"
