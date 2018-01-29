@@ -1,6 +1,6 @@
 # Frankland Lab Website Maintenance
 
-## Visit at [Franklandlab.com](https://www.franklandlab.com)
+## Visit at [www.franklandlab.com](http://www.franklandlab.com)
 
 ## Requirements
 Options:
