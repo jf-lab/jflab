@@ -1,3 +1,5 @@
+#each entry must have a #name, and #position, otherwise you can also include #current for where they are now
+
 - name: Jonathan Epp
   position: Post-Doctoral Fellow
   current: Assistant Professor, University of Calgary
