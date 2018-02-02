@@ -3,6 +3,11 @@
   contact: gisella.vetere@gmail.com
   img_id: gisella.png
   hometown:  Rome, Italy
+  interests:
+      - ":camera:"
+      - dance
+      - "hang out with friends :beers:"
+      - reading
 
 - name: Justin Kenney
   position: Post-Doc
