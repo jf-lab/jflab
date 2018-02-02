@@ -34,7 +34,12 @@
   position: Post-Doc
   contact:
   img_id: cesar.jpg
-  hometown: Rio, Brazil
+  hometown: Sao Jose dos Campos, Brazil
+  interests:
+      - Capoeira
+      - Dancing
+      - ":bike:"
+      - Programming
 
 - name: Adam Miller
   position: Post-Doc

@@ -8,20 +8,23 @@
   position: MSc Student
 
 - name: Bonny Hou
-  position: Dentistry, McGill University
+  position: MSc Student
+  current: Dentistry, McGill University
 
 - name: Aijing Gao
   position: MSc Student
 
 - name: Adam Santoro
   position: PhD Student
-  current: Google Deep Mind, London, UK
+  current: Researcher, Google Deep Mind, London, UK
 
 - name: Jana Husse
   position: Post-Doctoral Fellow
+  current:
 
 - name: Leonardo Restivo
   position: Post-Doctoral Fellow
+  current: Chief Science Officer, Neuro Behavioral Analysis Unit, University of Lausanne, Switzerland
 
 - name: Yosuke Niibori
   position: Post-Doctoral Fellow
@@ -40,25 +43,26 @@
 
 - name: Blake Richards
   position: Post-Doctoral Fellow
-  current: Assistant Professor, University of Toronto
+  current: Assistant Professor, University of Toronto, Canada
 
 - name: Alonso Martinez-Canabal
   position: PhD Student
 
 - name: Maithe Arruda-Carvalho
   position: PhD Student
-  current: Assistant Professor, University of Toronto
+  current: Assistant Professor, University of Toronto, Canada
 
 - name: Jason Snyder
   position: Post-Doctoral Fellow
-  current: Assistant Professor, University of British Columbia
+  current: Assistant Professor, University of British Columbia, Canada
 
 - name: Katherine Akers
   position: Post-Doctoral Fellow
+  current: Biomedical Research/Research Data Specialist, Wayne State, USA
 
 - name: Anne Wheeler
   position: PhD Student
-  current: Assistant Professor, University of Toronto
+  current: Assistant Professor, University of Toronto, Canada
 
 - name: Masanori Sakaguchi
   position: Post-Doctoral Fellow
@@ -86,7 +90,7 @@
 
 - name: Nohjin Kee
   position: Post-Doctoral Fellow
-  current: Assistant Professor, University of Toronto
+  current: Assistant Professor, University of Toronto, Canada
 
 - name: Szu Han Wang
   position: Post-Doctoral Fellow

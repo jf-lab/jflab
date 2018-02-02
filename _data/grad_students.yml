@@ -31,12 +31,14 @@
     - Design
 
 - name: Adam Ramsaran
-  position: PhD Student
+  position: PhD Candidate
   img_id: adamr.jpg
   contact:
   hometown: Newark, Delaware
   interests:
     - Whomp it Up (Podcast)
+    - Veep
+    - HRC
 
 - name: Moushumi Nath
   position: MSc Candidate
@@ -46,7 +48,7 @@
     - Freebies
 
 - name: Sangyoon Ko
-  position: MSc Student
+  position: MSc Candidate
   img_id: sangyoon.jpg
   contact:
   hometown: Jeju, Korea
