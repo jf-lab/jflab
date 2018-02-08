@@ -17,6 +17,7 @@
 - name: Patrick Steadman
   position: PhD Candidate
   img_id: patrick.jpg
+  bitmoji: patrick_bitmoji.png
   contact:
   hometown: Etobicoke, ON
   interests:
@@ -25,11 +26,12 @@
 - name: Lina Tran
   position: PhD Candidate
   img_id: lina.jpg
+  bitmoji: lina_bitmoji.png
   hometown: Toronto, ON
   interests:
     - Music
     - Design
-    - Karaoke
+    - ":cactus:"
 
 - name: Adam Ramsaran
   position: PhD Candidate
@@ -43,7 +45,6 @@
 
 - name: Moushumi Nath
   position: MSc Candidate
-  img_id: moushumi.jpg
   hometown: Montreal, QC
   interests:
     - Freebies

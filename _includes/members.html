@@ -121,7 +121,11 @@
                <div class="col-sm-4">
            {% endif %}
                    <div class="team-member">
-                       <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
+                       {% if member.bitmoji %}
+                          <img alt="" class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id }}" onmouseover="this.src='img/team/{{ member.bitmoji }}'" onmouseout="this.src='img/team/{{ member.img_id }}'">
+                       {% else %}
+                          <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
+                       {% endif %}
                        <h4>{{ member.name }}</h4>
                        <p class="text-muted">{{ member.position }}<br>
                        {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}

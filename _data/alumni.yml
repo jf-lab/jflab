@@ -1,4 +1,7 @@
 #each entry must have a #name, and #position, otherwise you can also include #current for where they are now
+- name: Sara Moberg
+  position: Visiting Student
+  current: MSc Student, University of Edinburgh
 
 - name: Jonathan Epp
   position: Post-Doctoral Fellow
