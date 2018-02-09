@@ -11,7 +11,7 @@
   position: PhD Candidate
   img_id: frances.jpg
   contact:
-  bitmoji: 
+  bitmoji:
   hometown: Vancouver, BC
   interests:
     - (Excellent) Coffee
@@ -51,6 +51,7 @@
   hometown: Montreal, QC
   interests:
     - Freebies
+  img_id: default.png
 
 - name: Sangyoon Ko
   position: MSc Candidate
