@@ -408,6 +408,9 @@ section#contact {
     color: #e74c3c; }
 
 footer {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
   padding: 25px 0;
   text-align: center; }
   footer span.copyright {
