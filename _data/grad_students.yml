@@ -2,7 +2,7 @@
   position: PhD Candidate
   img_id: axel.jpg
   contact:
-  bitmoji: axel_bitmoji.png
+#  bitmoji: axel_bitmoji.png
   hometown: Saskatoon, SK
   interests:
     - ":ant:"
@@ -19,7 +19,7 @@
 - name: Patrick Steadman
   position: PhD Candidate
   img_id: patrick.jpg
-  bitmoji: patrick_bitmoji.png
+#  bitmoji: patrick_bitmoji.png
   contact:
   hometown: Etobicoke, ON
   interests:
@@ -28,7 +28,7 @@
 - name: Lina Tran
   position: PhD Candidate
   img_id: lina.jpg
-  bitmoji: lina_bitmoji.png
+#  bitmoji: lina_bitmoji.png
   hometown: Toronto, ON
   interests:
     - Music
@@ -39,19 +39,12 @@
   position: PhD Candidate
   img_id: adamr.jpg
   contact:
-  bitmoji: adamr_bitmoji.jpg
+#  bitmoji: adamr_bitmoji.jpg
   hometown: Newark, Delaware
   interests:
     - Whomp it Up (Podcast)
     - Veep
     - HRC
-
-- name: Moushumi Nath
-  position: MSc Candidate
-  hometown: Montreal, QC
-  interests:
-    - Freebies
-  img_id: default.png
 
 - name: Sangyoon Ko
   position: MSc Candidate
