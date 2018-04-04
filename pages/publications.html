@@ -3,7 +3,7 @@ layout: page
 title: 'Publications'
 permalink: /publications/
 ---
-Click for pdf download, or link.
+Click for link or pdf download.
 <br>
 <br>
 <div class="container">
@@ -14,9 +14,11 @@ Click for pdf download, or link.
         {% assign date = currentdate %}
       {% endif %}
       {% if pub.alt_link %}
-        <a href="{{ pub.alt_link }}"><strong>{{ pub.author }}</strong> {{ pub.title }}</a> (link only)<br>
+        <a href="{{ pub.alt_link }}"><strong>{{ pub.author }}</strong> {{ pub.title }}</a><br>
+      {% elsif pub.link %}
+        <a href="{{ site.url }}/{{ pub.link }}"><strong>{{ pub.author }}</strong> {{ pub.title }}</a> (PDF)<br>
       {% else %}
-        <a href="{{ site.url }}/{{ pub.link }}"><strong>{{ pub.author }}</strong> {{ pub.title }}</a><br>
+        <strong>{{ pub.author }}</strong> {{ pub.title }}<br>
       {% endif %}
     {% endfor %}
 </div>

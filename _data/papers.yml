@@ -1,71 +1,101 @@
-- author: Gao et al.
-  title: Elevation of hippocampal neurogenesis induces a temporally-graded pattern of forgetting of contextual fear memories, J Neuro, published online.
-  alt_link: http://www.jneurosci.org/content/early/2018/02/16/JNEUROSCI.3126-17.2018
+- author: "Gao, Aijing et al."
+  title: "Elevation of Hippocampal Neurogenesis Induces a Temporally Graded Pattern of Forgetting of Contextual Fear Memories. J. Neurosci., 38, 13, 3190-3198."
+  alt_link: "https://doi.org/10.1523/JNEUROSCI.3126-17.2018"
   year: 2018
 
-- author: Xia et al.
-  title: Parvalbumin-positive interneurons mediate cortical-hippocampal interactions that are necessary for memory consolidation. eLife, in press.
-  link: pdfs/Xia-et-al-2017b.pdf
+- author: Xia, Frances et al.
+  title: "Parvalbumin-positive interneurons mediate neocortical-hippocampal interactions that are necessary for memory consolidation. Elife, 6."
+  alt_link: "https://doi.org/10.7554/eLife.27868"
   year: 2017
 
-- author: Kenney et al.
-  title: Contextual fear conditioning in zebrafish.
-  link: pdfs/Kenney-et-al-2017.pdf
+- author: "Kenney, Justin W et al."
+  title: "Contextual fear conditioning in zebrafish. Learn. Mem., 24, 10, 516-523."
+  alt_link: "https://doi.org/10.1101/lm.045690.117"
   year: 2017
 
-- author: Vetere et al.
-  title: Chemogenetic Interrogation of a Brain-wide Fear Memory Network in Mice. Neuron, 94, 363–374.
-  link: pdfs/Vetere-et-al-2017.pdf
+- author: "Richards, Blake A, Frankland, Paul W."
+  title: "The Persistence and Transience of Memory. Neuron, 94, 6, 1071-1084."
+  alt_link: "https://doi.org/S0896-6273(17)30365-3"
   year: 2017
 
-- author: Xia et al.
-  title: Entorhinal Cortical Deep Brain Stimulation Rescues Memory Deficits in Both Young and Old Mice Genetically Engineered to Model Alzheimer’s Disease. Neuropsychoparmacology, in press.
-  link: pdfs/Xia-et-al-2017.pdf
+- author: Xia, Frances et al.
+  title: "Entorhinal Cortical Deep Brain Stimulation Rescues Memory Deficits in Both Young and Old Mice Genetically Engineered to Model Alzheimer's Disease. Neuropsychopharmacology, 42, 13, 2493-2503."
+  alt_link: "https://doi.org/10.1038/npp.2017.100"
   year: 2017
 
-- author: Guskjolen et al.
-  title: Age-dependent changes in spatial memory retention and flexibility in mice. Neurobiology of Learning and Memory, 143, 59-66.
-  link: pdfs/guskjolen-et-al-2017.pdf
+- author: Snyder, Jason S et al.
+  title: "Running promotes spatial bias independently of adult neurogenesis. Hippocampus, 27, 8, 871-882."
+  alt_link: "https://doi.org/10.1002/hipo.22737"
   year: 2017
 
-- author: Santoro et al.
-  title: Dual episodic and semantic control enhances reinforcement learning in dynamic environments. Journal of Neuroscience, 36, 12228-12242.
-  link: pdfs/santoro-et-al-2016.pdf
+- author: Josselyn, Sheena A et al.
+  title: "Heroes of the Engram. J. Neurosci., 37, 18, 4647-4657."
+  alt_link: "https://doi.org/10.1523/JNEUROSCI.0056-17.2017"
+  year: 2017
+
+- author: Vetere, Gisella et al.
+  title: "Chemogenetic Interrogation of a Brain-wide Fear Memory Network in Mice. Neuron, 94, 2, 363-374.e4."
+  alt_link: "https://doi.org/S0896-6273(17)30259-3"
+  year: 2017
+
+- author: Tanimizu, Toshiyuki et al.
+  title: "Functional Connectivity of Multiple Brain Regions Required for the Consolidation of Social Recognition Memory. J. Neurosci., 37, 15, 4103-4116."
+  alt_link: "https://doi.org/10.1523/JNEUROSCI.3451-16.2017"
+  year: 2017
+
+- author: Walters, Brandon J et al.
+  title: "The Role of The RNA Demethylase FTO (Fat Mass and Obesity-Associated) and mRNA Methylation in Hippocampal Memory Formation. Neuropsychopharmacology, 42, 7, 1502-1510."
+  alt_link: "https://doi.org/10.1038/npp.2017.31"
+  year: 2017
+
+- author: Guskjolen, Axel et al.
+  title: "Age-dependent changes in spatial memory retention and flexibility in mice. Neurobiol Learn Mem, 143."
+  alt_link: "https://doi.org/S1074-7427(16)30383-5"
   year: 2016
 
-- author: Yang et al.
-  title: A Glo1-methylglyoxal pathway that is perturbed in maternal diabetes regulates embryonic and adult neural stem cell pools in offspring. Cell Reports, 17, 1022-1036.
-  link: pdfs/yang-et-al-2016.pdf
+- author: Santoro, Adam et al.
+  title: "Memory Transformation Enhances Reinforcement Learning in Dynamic Environments. J. Neurosci., 36, 48, 12228-12242."
+  alt_link:
   year: 2016
 
-- author: Gouveia et al.
-  title: The aPKC-CBP pathway regulates adult hippocampal neurogenesis in an age-dependent manner. Stem Cell Reports, 7, 719-734.
-  link: pdfs/Gouveia-et-al-2016.pdf
+- author: Yang, Guang et al.
+  title: "A Glo1-Methylglyoxal Pathway that Is Perturbed in Maternal Diabetes Regulates Embryonic and Adult Neural Stem Cell Pools in Murine Offspring. Cell Rep, 17, 4, 1022-1036."
+  alt_link: "https://doi.org/S2211-1247(16)31323-7"
   year: 2016
 
-- author: Epp and Frankland
-  title: Re-engineering the hippocampus. Neuron, 91, 1190-91.
-  link: pdfs/Epp-and-Frankland-2016.pdf
+- author: Ishikawa, Rie et al.
+  title: "Hippocampal neurogenesis enhancers promote forgetting of remote fear memory after hippocampal reactivation by retrieval. Elife, 5."
+  alt_link: "https://doi.org/10.7554/eLife.17464"
   year: 2016
 
-- author: Ishikawa et al.
-  title: "Hippocampal neurogenesis enhancers promote forgetting of remote fear memory after hippocampal reactivation by retrieval. eLife, 5. pii: e17464."
-  link: pdfs/Ishikawa-et-al-2016.pdf
+- author: Epp, Jonathan R, Frankland, Paul W
+  title: "Re-engineering the Hippocampus. Neuron, 91, 6, 1190-1191."
+  alt_link: "https://doi.org/S0896-6273(16)30567-0"
   year: 2016
 
-- author: Guskjolen
-  title: "Losing Connections, Losing Memory: AMPA Receptor Endocytosis as a Neurobiological Mechanism of Forgetting. Journal of Neuroscience, 36, 7559-7561."
-  link: pdfs/guskjolen-2016.pdf
+- author: Gouveia, Ayden et al.
+  title: "The aPKC-CBP Pathway Regulates Adult Hippocampal Neurogenesis in an Age-Dependent Manner. Stem Cell Reports, 7, 4, 719-734."
+  alt_link: "https://doi.org/S2213-6711(16)30174-6"
   year: 2016
 
-- author: Rashid et al.
-  title: Competition between engrams influences fear memory formation and recall. Science, 353, 383-387.
-  link: pdfs/rashid-et-al-2016.pdf
+- author: Rashid, Asim J et al.
+  title: "Competition between engrams influences fear memory formation and recall. Science, 353, 6297, 383-7."
+  alt_link: "https://doi.org/10.1126/science.aaf0594"
   year: 2016
 
-- author: Frankland and Josselyn
-  title: In search of the memory molecule. Nature, 535, 41–42.
-  link: pdfs/Frankland-and-Josselyn-2016-Nature-NV.pdf
+- author: Morrison, Dano J et al.
+  title: "Parvalbumin interneurons constrain the size of the lateral amygdala engram. Neurobiol Learn Mem, 135."
+  alt_link: "https://doi.org/S1074-7427(16)30107-1"
+  year: 2016
+
+- author: Frankland, Paul W, Josselyn, Sheena A
+  title: "Neuroscience: In search of the memory molecule. Nature, 535, 7610, 41-2."
+  alt_link:
+  year: 2016
+
+- author: Park, Sungmo et al.
+  title: "Neuronal Allocation to a Hippocampal Engram. Neuropsychopharmacology, 41, 13, 2987-2993."
+  alt_link: "https://doi.org/10.1038/npp.2016.73"
   year: 2016
 
 - author: Ramsaran and Frankland
