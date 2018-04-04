@@ -8,7 +8,7 @@ Options:
 - To build locally, please follow all the steps below.
 - To only work from Github/Netlify, start at Step 3.
 
-1. macOS, GNU/Linux, Unix (sorry windows...)
+1. macOS, GNU/Linux, Unix (doesn't work as well on Windows, but might work depending on your set-up)
 2. [Jekyll](https://jekyllrb.com/docs/installation/) Static Pages Generator
     - please follow the instructions carefully to download prerequisites (Ruby, RubyGems, GCC/Make)
     - once you have these working:  
@@ -16,11 +16,31 @@ Options:
 3. A [Github Account](https://github.com) (it's free!)
 4. Access to the [Github repo](https://github.com/linamnt/franklandlab) and Netlify.com
     - see previous administrator to add you
+5. Python 3.4+
+
 
 ## Usage
 
-### Adding Publications
-In the `_data/` folder, edit the file papers.yml with new publications. All tags required.
+### Adding Publications Manually
+- See the examples in `_data/papers.yml` and fill in papers with the appropriate information.
+- all fields except link (for pdfs) or alt_link (for online version link) are required
+- order from most recent to oldest
+
+### Adding Publications Automatically via Pubmed Search
+- Make sure you have Python 3, then run the following in command line:
+`> pip install biopython`
+- Edit the `author` and `user_email` variables in the `main()` function of update_papers.py to match your NCBI author search.
+- When running the first time, please check to make sure that `_data/recent_pubmed_ids.txt`
+is empty (just delete whatever is currently there, as this data belongs to a previous
+websites template and won't apply to your website).
+- Run the following in command line:
+```
+> cd website/folder/
+> python update_papers.py
+> git add _data/*
+> git commit -m 'updated publications'
+> git push origin master
+```
 
 ### Changing Members
 In the `_data/` folder, there are four files, pi.yml, techs.yml, grad_students.yml, and alumni.yml

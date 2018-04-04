@@ -1,7 +1,9 @@
 from Bio import Entrez
 
-
 def parse_author(author_info):
+    '''
+    Takes a pubmed entry's author info and returns lastname, forename.
+    '''
     last = author_info['LastName']
     forename = author_info['ForeName']
     name = ", ".join([last, forename])
@@ -9,7 +11,11 @@ def parse_author(author_info):
 
 
 def parse_journal(journal_info, pagination):
+    '''
+    Takes a pubmed entry's journal publication info and returns issue information.
+    '''
     abbrev = journal_info['ISOAbbreviation']
+
     if journal_info.has_key('JournalIssue'):
         issue = journal_info['JournalIssue']
         if pagination and issue.has_key('Issue'):
@@ -19,6 +25,7 @@ def parse_journal(journal_info, pagination):
     else:
         issue = abbrev
     return issue
+
 
 class Paper(object):
     def __init__(self, pubmed_entry):
@@ -107,10 +114,18 @@ def add_new_papers(new_papers):
 
 
 def main():
+    # change these for your own website
     user_email = 'lina.mntran@gmail.com'
     author = 'Frankland PW[Author]'
 
-    ids = search_author(author, user_email)
+    # search the author, find paper details and add to papers.yml
+    append_copy = open("_data/papers.yml", "r")
+    current_papers = append_copy.read()
+    append_copy.close()
+    if len(current_papers):
+        ids = search_author(author, user_email, 100)
+    else:
+        ids = search_author(author, user_email)
     papers = fetch_new_papers(ids, user_email)
     if papers is not None:
         add_new_papers(papers)
