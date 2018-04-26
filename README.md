@@ -25,6 +25,8 @@ Options:
 - See the examples in `_data/papers.yml` and fill in papers with the appropriate information.
 - all fields except link (for pdfs) or alt_link (for online version link) are required
 - order from most recent to oldest
+- to link a PDF, place the pdf in the _site/pdfs/ folder and link to it
+in the `link:` field using the format `pdfs/name-of-pdf.pdf` 
 
 ### Adding Publications Automatically via Pubmed Search
 - Make sure you have Python 3, then run the following in command line:

@@ -41,7 +41,7 @@ class Paper(object):
             self.year = article_info['ArticleDate'][0]['Year']
         else:
             self.year = article_info['Journal']['JournalIssue']['PubDate']['Year']
-        self.title = article_info['ArticleTitle']
+        self.title = unicode(article_info['ArticleTitle'])
         pagination = False
         if article_info.has_key("Pagination"):
             pagination = article_info['Pagination']
@@ -50,7 +50,7 @@ class Paper(object):
             self.link = 'https://doi.org/' + article_info['ELocationID'][0]
         else:
             self.link = ''
-        self.yml = """- author: {}\n  title: "{} {}."\n  alt_link: "{}"\n  year: {}\n\n".format(self.first_author, self.title, self.journal_info, self.link, self.year)"""
+        self.yml = '''- author: {}\n  title: "{} {}."\n  alt_link: "{}"\n  year: {}\n\n'''.format(self.first_author, self.title, self.journal_info, self.link, self.year)
 
 
 def search_author(query, email, max_search=20):
