@@ -20,8 +20,10 @@ def parse_journal(journal_info, pagination):
         issue = journal_info['JournalIssue']
         if pagination and issue.has_key('Issue'):
             issue = ', '.join([abbrev, issue['Volume'], issue['Issue'], pagination['MedlinePgn']])
-        else:
+        elif issue.has_key('Volume'):
             issue = ', '.join([abbrev, issue['Volume']])
+        else:
+            issue = abbrev
     else:
         issue = abbrev
     return issue
@@ -33,21 +35,23 @@ class Paper(object):
         #author info
         authors = article_info['AuthorList']
         if len(authors) < 3:
-            self.first_author = ', '.join([parse_author(author) for author in authors]) + '.'
+            self.first_author = (', '.join([parse_author(author) for author in authors]) + '.').encode('utf-8')
         else:
-            self.first_author = parse_author(authors[0]) + ' et al.'
+            self.first_author = (parse_author(authors[0]) + ' et al.').encode('utf-8')
         #article info
         if len(article_info['ArticleDate']):
             self.year = article_info['ArticleDate'][0]['Year']
-        else:
+        elif article_info['Journal']['JournalIssue'].has_key('PubDate') and article_info['Journal']['JournalIssue']['PubDate'].has_key('Year'):
             self.year = article_info['Journal']['JournalIssue']['PubDate']['Year']
-        self.title = unicode(article_info['ArticleTitle'])
+        else:
+            self.year = ''
+        self.title = article_info['ArticleTitle'].encode('utf-8')
         pagination = False
         if article_info.has_key("Pagination"):
             pagination = article_info['Pagination']
         self.journal_info = parse_journal(article_info['Journal'], pagination)
         if len(article_info["ELocationID"]):
-            self.link = 'https://doi.org/' + article_info['ELocationID'][0]
+            self.link = unicode('https://doi.org/' + article_info['ELocationID'][0])
         else:
             self.link = ''
         self.yml = '''- author: {}\n  title: "{} {}."\n  alt_link: "{}"\n  year: {}\n\n'''.format(self.first_author, self.title, self.journal_info, self.link, self.year)
@@ -122,7 +126,7 @@ def main():
     append_copy = open("_data/papers.yml", "r")
     current_papers = append_copy.read()
     append_copy.close()
-    if len(current_papers):
+    if len(current_papers) == 0:
         ids = search_author(author, user_email, 100)
     else:
         ids = search_author(author, user_email)
