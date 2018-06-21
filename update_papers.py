@@ -95,7 +95,7 @@ def fetch_new_papers(ids, email):
 
         #update recent_pubmed_ids
         a = open('_data/recent_pubmed_ids.txt', 'w')
-        a.write(','.join(ids))
+        a.write(','.join(ids + previous_ids))
         a.close()
 
         return papers
