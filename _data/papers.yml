@@ -1,6 +1,6 @@
 - author: Guskjolen, Axel et al.
-  title: "Recovery of "Lost" Infant Memories in Mice. Curr. Biol., 28, 14, 2283-2290.e3."
-  alt_link: "https://doi.org/S0960-9822(18)30695-X"
+  title: "Recovery of 'Lost' Infant Memories in Mice. Curr. Biol., 28, 14, 2283-2290.e3."
+  alt_link: "https://doi.org/10.1016/j.cub.2018.05.059"
   year: 2018
 
 - author: Kramer, Emily E et al.
@@ -24,33 +24,33 @@
   year: 2018
 
 - author: Josselyn, Sheena A, Frankland, Paul W.
-  title: "Memory Allocation: Mechanisms and Function. Annu. Rev. Neurosci."
+  title: "Memory Allocation: Mechanisms and Function. Annu. Rev. Neurosci., 41."
   alt_link: "https://doi.org/10.1146/annurev-neuro-080317-061956"
   year: 2018
 
 - author: Kempermann, Gerd et al.
-  title: "Human Adult Neurogenesis: Evidence and Remaining Questions. Cell Stem Cell."
+  title: "Human Adult Neurogenesis: Evidence and Remaining Questions. Cell Stem Cell, 23, 1, 25-30."
   alt_link: "https://doi.org/10.1016/j.stem.2018.04.004"
   year: 2018
 
-- author: "Gao, Aijing et al."
+- author: Gao, Aijing et al.
   title: "Elevation of Hippocampal Neurogenesis Induces a Temporally Graded Pattern of Forgetting of Contextual Fear Memories. J. Neurosci., 38, 13, 3190-3198."
   alt_link: "https://doi.org/10.1523/JNEUROSCI.3126-17.2018"
   year: 2018
 
 - author: Xia, Frances et al.
   title: "Parvalbumin-positive interneurons mediate neocortical-hippocampal interactions that are necessary for memory consolidation. Elife, 6."
-  alt_link: "https://doi.org/10.7554/eLife.27868"
+  alt_link: "https://doi.org/e27868"
   year: 2017
 
-- author: "Kenney, Justin W et al."
+- author: Kenney, Justin W et al.
   title: "Contextual fear conditioning in zebrafish. Learn. Mem., 24, 10, 516-523."
   alt_link: "https://doi.org/10.1101/lm.045690.117"
   year: 2017
 
-- author: "Richards, Blake A, Frankland, Paul W."
+- author: Richards, Blake A, Frankland, Paul W.
   title: "The Persistence and Transience of Memory. Neuron, 94, 6, 1071-1084."
-  alt_link: "https://doi.org/S0896-6273(17)30365-3"
+  alt_link: "https://doi.org/10.1016/j.neuron.2017.04.037"
   year: 2017
 
 - author: Xia, Frances et al.
@@ -70,7 +70,7 @@
 
 - author: Vetere, Gisella et al.
   title: "Chemogenetic Interrogation of a Brain-wide Fear Memory Network in Mice. Neuron, 94, 2, 363-374.e4."
-  alt_link: "https://doi.org/S0896-6273(17)30259-3"
+  alt_link: "https://doi.org/10.1016/j.neuron.2017.03.037"
   year: 2017
 
 - author: Tanimizu, Toshiyuki et al.
@@ -85,37 +85,42 @@
 
 - author: Guskjolen, Axel et al.
   title: "Age-dependent changes in spatial memory retention and flexibility in mice. Neurobiol Learn Mem, 143."
-  alt_link: "https://doi.org/S1074-7427(16)30383-5"
+  alt_link: "https://doi.org/10.1016/j.nlm.2016.12.006"
   year: 2016
 
 - author: Santoro, Adam et al.
   title: "Memory Transformation Enhances Reinforcement Learning in Dynamic Environments. J. Neurosci., 36, 48, 12228-12242."
-  alt_link:
+  alt_link: ""
   year: 2016
 
 - author: Yang, Guang et al.
   title: "A Glo1-Methylglyoxal Pathway that Is Perturbed in Maternal Diabetes Regulates Embryonic and Adult Neural Stem Cell Pools in Murine Offspring. Cell Rep, 17, 4, 1022-1036."
-  alt_link: "https://doi.org/S2211-1247(16)31323-7"
+  alt_link: "https://doi.org/10.1016/j.celrep.2016.09.067"
   year: 2016
 
 - author: Ishikawa, Rie et al.
   title: "Hippocampal neurogenesis enhancers promote forgetting of remote fear memory after hippocampal reactivation by retrieval. Elife, 5."
-  alt_link: "https://doi.org/10.7554/eLife.17464"
+  alt_link: "https://doi.org/e17464"
   year: 2016
 
-- author: Epp, Jonathan R, Frankland, Paul W
+- author: Epp, Jonathan R, Frankland, Paul W.
   title: "Re-engineering the Hippocampus. Neuron, 91, 6, 1190-1191."
-  alt_link: "https://doi.org/S0896-6273(16)30567-0"
+  alt_link: "https://doi.org/10.1016/j.neuron.2016.09.008"
   year: 2016
 
 - author: Gouveia, Ayden et al.
   title: "The aPKC-CBP Pathway Regulates Adult Hippocampal Neurogenesis in an Age-Dependent Manner. Stem Cell Reports, 7, 4, 719-734."
-  alt_link: "https://doi.org/S2213-6711(16)30174-6"
+  alt_link: "https://doi.org/10.1016/j.stemcr.2016.08.007"
   year: 2016
 
 - author: Rashid, Asim J et al.
   title: "Competition between engrams influences fear memory formation and recall. Science, 353, 6297, 383-7."
   alt_link: "https://doi.org/10.1126/science.aaf0594"
+  year: 2016
+
+- author: Morrison, Dano J et al.
+  title: "Parvalbumin interneurons constrain the size of the lateral amygdala engram. Neurobiol Learn Mem, 135."
+  alt_link: "https://doi.org/10.1016/j.nlm.2016.07.007"
   year: 2016
 
 - author: Morrison, Dano J et al.

@@ -1,3 +1,8 @@
 *.pyc
+*.ipynb
+
+.ipynb_checkpoints/
 
 .tweet-cache/
+
+node_modules/

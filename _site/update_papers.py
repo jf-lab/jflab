@@ -51,13 +51,13 @@ class Paper(object):
             pagination = article_info['Pagination']
         self.journal_info = parse_journal(article_info['Journal'], pagination)
         if len(article_info["ELocationID"]):
-            self.link = unicode('https://doi.org/' + article_info['ELocationID'][0])
+            self.link = unicode('https://doi.org/' + article_info['ELocationID'][-1])
         else:
             self.link = ''
         self.yml = '''- author: {}\n  title: "{} {}."\n  alt_link: "{}"\n  year: {}\n\n'''.format(self.first_author, self.title, self.journal_info, self.link, self.year)
 
 
-def search_author(query, email, max_search=20):
+def search_author(query, email, max_search=60):
     Entrez.email = email
     handle = Entrez.esearch(db='pubmed',
                             retmax=max_search,
