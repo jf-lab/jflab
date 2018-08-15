@@ -1,4 +1,3 @@
 *.pyc
 
-_site/
 .tweet-cache/
