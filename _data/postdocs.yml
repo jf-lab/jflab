@@ -1,13 +1,10 @@
-- name: Gisella Vetere
+- name: Frances Xia
   position: Post-Doc
-  contact: gisella.vetere@gmail.com
-  img_id: gisella.png
-  hometown:  Rome, Italy
+  img_id: frances.jpg
+  contact:
+  hometown: Vancouver, BC
   interests:
-      - ":camera:"
-      - dance
-      - "hang out with friends :beers:"
-      - reading
+    - (Excellent) Coffee
 
 - name: Jagroop Dhaliwal
   position: Post-Doc

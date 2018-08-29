@@ -2,24 +2,13 @@
   position: PhD Candidate
   img_id: axel.jpg
   contact:
-#  bitmoji: axel_bitmoji.png
   hometown: Saskatoon, SK
   interests:
     - ":ant:"
 
-- name: Frances Xia
-  position: PhD Candidate
-  img_id: frances.jpg
-  contact:
-  bitmoji:
-  hometown: Vancouver, BC
-  interests:
-    - (Excellent) Coffee
-
 - name: Patrick Steadman
   position: PhD Candidate
   img_id: patrick.jpg
-#  bitmoji: patrick_bitmoji.png
   contact:
   hometown: Etobicoke, ON
   interests:
@@ -28,7 +17,6 @@
 - name: Lina Tran
   position: PhD Candidate
   img_id: lina.jpg
-#  bitmoji: lina_bitmoji.png
   contact: https://www.github.com/linamnt
   hometown: Toronto, ON
   interests:
@@ -40,7 +28,6 @@
   position: PhD Candidate
   img_id: adamr.jpg
   contact:
-#  bitmoji: adamr_bitmoji.jpg
   hometown: Newark, Delaware
   interests:
     - Womp it Up (Podcast)
