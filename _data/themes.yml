@@ -1,0 +1,11 @@
+- title: Memory Allocation
+  description: How do neurons become allocated to a memory trace and how can we manipulate their activity to understand memory?
+  img: img/research/theme01.jpg
+
+- title: Remote Memory
+  description: How are remote memories organized in the cortex, and what the molecular and cellular events that underlie their consolidation?
+  img: img/research/theme02.jpg
+
+- title: Neurogenesis and Forgetting
+  description: What is the contribution of new neurons to hippocampal memory function. In particular we are interested in how new neurons regulate clearance of memories from the hippocampus (or forgetting).
+  img: img/research/theme03.jpg

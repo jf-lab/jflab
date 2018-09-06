@@ -1,7 +1,19 @@
+- name: Sungmo Park
+  position: Postdoc
+  img_id: sungmo.jpg
+  contact:
+  pi: Josselyn
+  hometown: Korea
+  interests:
+    -
+  claim-to-fame: I think that there are mainly two different ways to read scientific articles or papers. One is to read very narrowly interested articles for very specific field. This style can help us to get professional information. The other is like scanning. We usually scan whole research papers online regardless of our field, and then those articles give us wide knowledge. When I find something special using either ways, I feel a thrill. And I think this moment can make me a real scientist.
+  favourite-thing: I love new findings and applying new technique.
+
 - name: Frances Xia
   position: Post-Doc
   img_id: frances.jpg
   contact:
+  pi: Frankland
   hometown: Vancouver, BC
   interests:
     - (Excellent) Coffee
@@ -9,6 +21,7 @@
 - name: Jagroop Dhaliwal
   position: Post-Doc
   contact:
+  pi: Frankland
   img_id: jagroop.jpg
   interests:
       - Reading
@@ -17,9 +30,32 @@
       - Movies
   hometown: New Delhi, India; Ottawa, ON
 
+- name: Jung Hoon Jung
+  position: Postdoc
+  img_id: jung.jpg
+  pi: Josselyn
+  contact:
+  hometown: Daegu, South Korea
+  interests:
+    -
+  claim-to-fame: I am a father with two sons who have explosive energy and activity.
+  favourite-thing: A challenge to a new unknown would.
+
+- name: Naohide Kondo
+  position: Postdoc
+  img_id: naohide.jpg
+  contact:
+  pi: Josselyn
+  hometown: Japan
+  interests:
+    -
+  claim-to-fame: 1) Almost all friends say ” Your son is practically a clone of you!”. 2) When I was a medical resident, I performed a medical check for a very famous Japanese national footballer.
+  favourite-thing:
+
 - name: Cesar Coelho
   position: Post-Doc
   contact:
+  pi: Frankland
   img_id: cesar.jpg
   hometown: Sao Jose dos Campos, Brazil
   interests:
@@ -31,6 +67,7 @@
 - name: Adam Miller
   position: Post-Doc
   contact:
+  pi: Frankland
   img_id: adamm.jpg
   hometown: Chicago, IL, USA
   interests:

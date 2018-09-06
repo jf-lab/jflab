@@ -7,16 +7,13 @@
               </div>
             </div>
             <div class="row text-center">
-              <div class="col-md-6">
-                  <img src="{{ site.theme1_img }}" alt="" width="70%" height="55%">
-                <h4 class="service-heading">{{ site.theme1 }}</h4>
-                <p class="text-muted">{{ site.theme1_blurb }}</p>
+            {% for theme in site.data.themes %}
+               <div class="col-md-6">
+                  <img src="{{ theme.img }}" alt="" width="70%" height="55%">
+                <h4 class="service-heading">{{ theme.title }}</h4>
+                <p class="text-muted">{{ theme.description }}</p>
               </div>
-              <div class="col-md-6">
-                <img src="{{ site.theme2_img }}" alt="" width="80%" height="55%">
-                <h4 class="service-heading">{{ site.theme2 }}</h4>
-                <p class="text-muted">{{ site.theme2_blurb }}</p>
-              </div>
+            {% endfor %}
             </div>
           </div>
         </section>

@@ -1,3 +1,4 @@
+
 - author: Sekeres, Melanie J et al.
   title: "Impaired recent, but preserved remote, autobiographical memory in pediatric brain tumor patients. J. Neurosci.."
   alt_link: "https://doi.org/10.1523/JNEUROSCI.1056-18.2018"
@@ -98,6 +99,11 @@
   alt_link: ""
   year: 2016
 
+- author: Walters, Brandon J et al.
+  title: "Advanced In vivo Use of CRISPR/Cas9 and Anti-sense DNA Inhibition for Gene Manipulation in the Brain. Front Genet, 6."
+  alt_link: "https://doi.org/10.3389/fgene.2015.00362"
+  year: 2016
+
 - author: Yang, Guang et al.
   title: "A Glo1-Methylglyoxal Pathway that Is Perturbed in Maternal Diabetes Regulates Embryonic and Adult Neural Stem Cell Pools in Murine Offspring. Cell Rep, 17, 4, 1022-1036."
   alt_link: "https://doi.org/10.1016/j.celrep.2016.09.067"
@@ -158,6 +164,26 @@
   link: pdfs/Frankland-and-Josselyn-2016.pdf
   year: 2016
 
+- author: Ali, Ahmed M et al.
+  title: "Optogenetic Inhibitor of the Transcription Factor CREB. Chem. Biol., 22, 11, 1531-1539."
+  alt_link: "https://doi.org/10.1016/j.chembiol.2015.09.018"
+  year: 2015
+
+- author: Ehrlich, D E, Josselyn, S A.
+  title: "Plasticity-related genes in brain development and amygdala-dependent learning. Genes Brain Behav., 15, 1, 125-43."
+  alt_link: "https://doi.org/10.1111/gbb.12255"
+  year: 2015
+
+- author: Adamantidis, Antoine et al.
+  title: "Optogenetics: 10 years after ChR2 in neurons--views from the community. Nat. Neurosci., 18, 9, 1202-12."
+  alt_link: "https://doi.org/10.1038/nn.4106"
+  year: 2015
+
+- author: Wong, Albert H C, Josselyn, Sheena A.
+  title: "Caution When Diagnosing Your Mouse With Schizophrenia: The Use and Misuse of Model Animals for Understanding Psychiatric Disorders. Biol. Psychiatry, 79, 1, 32-8."
+  alt_link: "https://doi.org/S0006-3223(15)00361-3"
+  year: 2015
+
 - author: Berndt et al.
   title: "Channelrhodopsin pore engineering: second-generation chloride channels and the structural determinants of ion flux. PNAS, in press."
   link: pdfs/Berndt-et-al-2015.pdf
@@ -191,6 +217,17 @@
 - author: Josselyn and Frankland
   title: A new twist in the histone memory code. Cell Research, 25, 151-152.
   link: pdfs/Josselyn-and-Frankland-2014.pdf
+  year: 2014
+
+
+- author: Allemang-Grand, R et al.
+  title: "Altered brain development in an early-onset murine model of Alzheimer's disease. Neurobiol. Aging, 36, 2, 638-47."
+  alt_link: "https://doi.org/S0197-4580(14)00594-6"
+  year: 2014
+
+- author: Vieira, Philip A et al.
+  title: "Prefrontal consolidation supports the attainment of fear memory accuracy. Learn. Mem., 21, 8, 394-405."
+  alt_link: "https://doi.org/10.1101/lm.036087.114"
   year: 2014
 
 - author: Insel and Frankland
@@ -253,6 +290,21 @@
   link: pdfs/Turnbull-et-al-2013.pdf
   year: 2013
 
+- author: Rashid, A J et al.
+  title: "Emerging roles for MEF2 transcription factors in memory. Genes Brain Behav., 13, 1, 118-25."
+  alt_link: "https://doi.org/10.1111/gbb.12058"
+  year: 2013
+
+- author: Wasserman, David I et al.
+  title: "Cholinergic control of morphine-induced locomotion in rostromedial tegmental nucleus versus ventral tegmental area sites. Eur. J. Neurosci., 38, 5, 2774-85."
+  alt_link: "https://doi.org/10.1111/ejn.12279"
+  year: 2013
+
+- author: Sengar, Ameet S et al.
+  title: "Vertebrate intersectin1 is repurposed to facilitate cortical midline connectivity and higher order cognition. J. Neurosci., 33, 9, 4055-65."
+  alt_link: "https://doi.org/10.1523/JNEUROSCI.4428-12.2013"
+  year: 2013
+
 - author: Pederson et al.
   title: Inhibiting glycogen synthesis prevents lafora disease in a mouse model. Annals of Neurology, 74, 297-300.
   link: pdfs/pedderson-et-al-2013.pdf
@@ -308,6 +360,16 @@
   link: pdfs/Martinez-Canabal-Akers-et-al-2012
   year: 2013
 
+- author: Kim, Jieun et al.
+  title: "Memory recall and modifications by activating neurons with elevated CREB. Nat. Neurosci., 17, 1, 65-72."
+  alt_link: "https://doi.org/10.1038/nn.3592"
+  year: 2013
+
+- author: Cowansage, Kiriana K et al.
+  title: "Basal variability in CREB phosphorylation predicts trait-like differences in amygdala-dependent memory. Proc. Natl. Acad. Sci. U.S.A., 110, 41, 16645-50."
+  alt_link: "https://doi.org/10.1073/pnas.1304665110"
+  year: 2013
+
 - author: Sekeres et al.
   title: Increasing CRTC1 function in the dentate gyrus during memory formation or reactivation increases memory strength without compromising memory quality. Journal of Neuroscience, 32, 17857-17868.
   link: pdfs/Sekeres-2012.pdf
@@ -328,7 +390,18 @@
   link: pdfs/Gu-et-al-2012.pdf
   year: 2012
 
-- author: Josselyn and .
+- author: Salih, Dervis A M et al.
+  title: "FoxO6 regulates memory consolidation and synaptic function. Genes Dev., 26, 24, 2780-801."
+  alt_link: "https://doi.org/10.1101/gad.208926.112"
+  year: 2012
+
+
+- author: Mansouri, Alireza et al.
+  title: "Cerebellar abnormalities in purine nucleoside phosphorylase deficient mice. Neurobiol. Dis., 47, 2, 201-9."
+  alt_link: "https://doi.org/10.1016/j.nbd.2012.04.001"
+  year: 2012
+
+- author: Josselyn and Frankland.
   title: "Infantile amnesia: A neurogenic hypothesis. Learning and Memory, 19, 423-433."
   link: pdfs/Josselyn-and-Frankland-2012.pdf
   year: 2012
@@ -403,10 +476,22 @@
   link: pdfs/restivo-shifting-to-automatic.pdf
   year: 2010
 
-- author: Nai et al.
-  title: "Uncoupling the D1-NMDA receptor complex impairs NMDA-dependent LTP and working memory."
-  link: pdfs/Nai-et-al-2010.pdf
+- author: Bae, James J et al.
+  title: "Increased transforming growth factor-β1 modulates glutamate receptor expression in the hippocampus. Int J Physiol Pathophysiol Pharmacol, 3, 1, 9-20."
+  alt_link: ""
   year: 2010
+
+- author: Josselyn, Sheena A.
+  title: "Continuing the search for the engram: examining the mechanism of fear memories. J Psychiatry Neurosci, 35, 4, 221-8."
+  alt_link: ""
+  year: 2010
+
+
+- author: Nai, Qiang et al.
+  title: "Uncoupling the D1-N-methyl-D-aspartate (NMDA) receptor complex promotes NMDA-dependent long-term potentiation and working memory. Biol. Psychiatry, 67, 3, 246-54."
+  alt_link: "https://doi.org/10.1016/j.biopsych.2009.08.011"
+  year: 2009
+
 
 - author: Maei et al.
   title: "Development and validation of a sensitive entropy-based measure for the water maze."
@@ -513,6 +598,11 @@
   link: pdfs/currbio05.pdf
   year: 2005
 
+- author: Josselyn, Sheena A et al.
+  title: "The nucleus accumbens is not critically involved in mediating the effects of a safety signal on behavior. Neuropsychopharmacology, 30, 1, 17-26."
+  alt_link: ""
+  year: 2005
+
 - author: Tohmi et al.
   title: "Distinct influences of neonatal epidermal growth factor challenge on adult neurobehavioral traits in four mouse strains."
   link: pdfs/behav_gen05.pdf
@@ -528,11 +618,6 @@
   link: pdfs/frankland-teixeira-2005.pdf
   year: 2005
 
-- author: Frankland, Bontempi et al.
-  title: "The involvement of the anterior cingulate cortex in remote contextual fear memory."
-  link: pdfs/Science-2004.pdf
-  year: 2004
-
 - author: Suzuki et al.
   title: "Memory reconsolidation and extinction have distinct temporal and biochemical signatures."
   link: pdfs/Journal-of-Neuroscience-2004.pdf
@@ -547,3 +632,23 @@
   title: "Sensorimotor-gating abnormalities in young males with fragile X syndrome and Fmr1-knockout mice."
   alt_link: https://www.nature.com/articles/4001432
   year: 2004
+
+- author: Frankland, Bontempi et al.
+  title: "The involvement of the anterior cingulate cortex in remote contextual fear memory."
+  link: pdfs/Science-2004.pdf
+  year: 2004
+
+- author: Josselyn, S A et al.
+  title: "Inducible repression of CREB function disrupts amygdala-dependent memory. Neurobiol Learn Mem, 82, 2, 159-63."
+  alt_link: ""
+  year: 2004
+
+- author: Bozon, Bruno et al.
+  title: "MAPK, CREB and zif268 are all required for the consolidation of recognition memory. Philos. Trans. R. Soc. Lond., B, Biol. Sci., 358, 1432, 805-14."
+  alt_link: ""
+  year: 2003
+
+- author: Silva, Alcino J, Josselyn, Sheena A.
+  title: "The molecules of forgetfulness. Nature, 418, 6901, 929-30."
+  alt_link: ""
+  year: 2002

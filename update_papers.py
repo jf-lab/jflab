@@ -120,16 +120,16 @@ def add_new_papers(new_papers):
 def main():
     # change these for your own website
     user_email = 'lina.mntran@gmail.com'
-    author = 'Frankland PW[Author]'
+    author = 'Frankland PW[Author] or Josselyn SA[Author]'
 
     # search the author, find paper details and add to papers.yml
     append_copy = open("_data/papers.yml", "r")
     current_papers = append_copy.read()
     append_copy.close()
     if len(current_papers) == 0:
-        ids = search_author(author, user_email, 100)
+        ids = search_author(author, user_email, 200)
     else:
-        ids = search_author(author, user_email)
+        ids = search_author(author, user_email, 200)
     papers = fetch_new_papers(ids, user_email)
     if papers is not None:
         add_new_papers(papers)
