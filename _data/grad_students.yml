@@ -34,7 +34,6 @@
   pi: Josselyn
   hometown: Hampton, ON
   interests:
-    - "League of Legends"
   claim-to-fame: Derailing lunch conversations to talk about video games
   favourite-thing: Sharing the obsessive need to observe, classify, and understand the world around us with like-minded people
 
@@ -108,6 +107,16 @@
   pi: Josselyn
   contact:
   hometown: Nanjing, China
+  interests:
+  claim-to-fame: My only claim to fame, if I have one, is that I look much younger than my age…
+  favourite-thing: You don’t really fail, you succeed or you learn.
+
+- name: Amy Yeung
+  position: MSc Student
+  img_id: amy.jpg
+  pi: Frankland
+  contact:
+  hometown: Toronto, ON
   interests:
   claim-to-fame: My only claim to fame, if I have one, is that I look much younger than my age…
   favourite-thing: You don’t really fail, you succeed or you learn.
