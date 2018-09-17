@@ -34,8 +34,6 @@
   pi: Josselyn
   hometown: Hampton, ON
   interests:
-  claim-to-fame: Derailing lunch conversations to talk about video games
-  favourite-thing: Sharing the obsessive need to observe, classify, and understand the world around us with like-minded people
 
 - name: Adam Ramsaran
   position: PhD Candidate
@@ -116,7 +114,48 @@
   img_id: amy.jpg
   pi: Frankland
   contact:
-  hometown: Toronto, ON
+  hometown: Brampton, ON
   interests:
-  claim-to-fame: My only claim to fame, if I have one, is that I look much younger than my age…
-  favourite-thing: You don’t really fail, you succeed or you learn.
+      - Food (of all types)
+      - Wushu
+      - Vacationing
+
+
+- name: Lana Duan
+  position: MSc Student
+  img_id: lana.jpg
+  pi: Frankland
+  contact:
+  hometown: Kunming, China
+  interests:
+      - :mahjong:
+
+- name: Jeanne Inchauspé
+  position: MSc Student
+  img_id: jeanne.jpg
+  pi: Josselyn
+  contact:
+  hometown: Basque Country, France
+  interests:
+      - Music
+      - Ballet
+      - Swing
+      - Kickboxing
+      - Trekking
+
+- name: Rida Ansari
+  position: MSc Student
+  img_id: rida.jpg
+  pi: Frankland
+  contact:
+  hometown: Karachi, Pakistan
+  interests:
+      - :tropical_fish:
+
+- name: Ali Golbabaei
+  position: PhD Student
+  img_id:
+  pi: Frankland
+  contact:
+  hometown:
+  interests:
