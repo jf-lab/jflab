@@ -1,5 +1,5 @@
 - name: Sungmo Park
-  position: Postdoc
+  position: Post-Doc
   img_id: sungmo.jpg
   contact:
   pi: Josselyn
@@ -31,7 +31,7 @@
   hometown: New Delhi, India; Ottawa, ON
 
 - name: Jung Hoon Jung
-  position: Postdoc
+  position: Post-Doc
   img_id: jung.jpg
   pi: Josselyn
   contact:
@@ -42,7 +42,7 @@
   favourite-thing: A challenge to a new unknown would.
 
 - name: Naohide Kondo
-  position: Postdoc
+  position: Post-Doc
   img_id: naohide.jpg
   contact:
   pi: Josselyn
@@ -69,7 +69,7 @@
   contact:
   pi: Frankland
   img_id: adamm.jpg
-  hometown: Chicago, IL, USA
+  hometown: Chicago, IL
   interests:
       - Soccer
       - Hiking
