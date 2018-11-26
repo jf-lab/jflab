@@ -45,7 +45,7 @@ class Paper(object):
             self.year = article_info['Journal']['JournalIssue']['PubDate']['Year']
         else:
             self.year = ''
-        self.title = article_info['ArticleTitle']
+        self.title = article_info['ArticleTitle'].strip("'")
         pagination = False
         if "Pagination" in article_info :
             pagination = article_info['Pagination']
