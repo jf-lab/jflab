@@ -57,16 +57,6 @@
   claim-to-fame: I’ve coordinated lighting, sound, special effects etc. for more than 25 plays and musicals
   favourite-thing: The feeling of satisfaction that comes from cracking a tough problem.
 
-- name: Julia Yu
-  position: MSc Student
-  img_id: julia.jpg
-  contact:
-  pi: Josselyn
-  hometown: Vancouver, BC
-  interests:
-  claim-to-fame: I still shop in the kids’ section but can bench press my own weight.
-  favourite-thing: It allows us to convert an idea into new knowledge by systematically interrogating nature.  Also, the thrill of being on the cutting edge!
-
 - name: Andrew Mocle
   position: MSc Student
   img_id: andrew.jpg
@@ -74,6 +64,9 @@
   pi: Josselyn
   hometown: Toronto, ON
   interests:
+      - Squash
+      - Melodica
+      - Too Much Tuna
   claim-to-fame: Understands most social cues
   favourite-thing: Working at the interface between the ER and mitochondrial membrane
 
@@ -159,3 +152,13 @@
   contact:
   hometown:
   interests:
+
+- name: Andrin Abegg
+  position: Visiting MSc Student (ETH)
+  img_id: andrin.jpg
+  pi: Frankland
+  hometown: Zurich, Switzerland
+  interests:
+      - Cats
+      - Techno
+      - Books

@@ -12,3 +12,11 @@
   position: Lab Technician
   img_id: daisy.jpg
   hometown: Beijing, China
+
+- name: Lily Xu
+  position: Lab Technician
+  img_id: lily.jpg
+  hometown: Toronto, Ontario
+  interests:
+      - Bubble Tea
+      - Cake
