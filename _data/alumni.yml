@@ -1,4 +1,7 @@
 #each entry must have a #name, and #position, otherwise you can also include #current for where they are now
+- name: Julia Yu
+  position: MSc Student
+
 - name: Gisella Vetere
   position: Post-Doctoral Fellow
   current: Professor, ESPCI, Paris, France
