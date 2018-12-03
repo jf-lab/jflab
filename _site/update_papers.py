@@ -16,11 +16,11 @@ def parse_journal(journal_info, pagination):
     '''
     abbrev = journal_info['ISOAbbreviation']
 
-    if journal_info.has_key('JournalIssue'):
+    if 'JournalIssue' in journal_info:
         issue = journal_info['JournalIssue']
-        if pagination and issue.has_key('Issue'):
+        if pagination and ('Issue' in issue):
             issue = ', '.join([abbrev, issue['Volume'], issue['Issue'], pagination['MedlinePgn']])
-        elif issue.has_key('Volume'):
+        elif 'Volume' in issue:
             issue = ', '.join([abbrev, issue['Volume']])
         else:
             issue = abbrev
@@ -35,23 +35,23 @@ class Paper(object):
         #author info
         authors = article_info['AuthorList']
         if len(authors) < 3:
-            self.first_author = (', '.join([parse_author(author) for author in authors]) + '.').encode('utf-8')
+            self.first_author = (', '.join([parse_author(author) for author in authors]) + '.')
         else:
-            self.first_author = (parse_author(authors[0]) + ' et al.').encode('utf-8')
+            self.first_author = (parse_author(authors[0]) + ' et al.')
         #article info
         if len(article_info['ArticleDate']):
             self.year = article_info['ArticleDate'][0]['Year']
-        elif article_info['Journal']['JournalIssue'].has_key('PubDate') and article_info['Journal']['JournalIssue']['PubDate'].has_key('Year'):
+        elif ('PubDate' in article_info['Journal']['JournalIssue']) and ('Year' in article_info['Journal']['JournalIssue']['PubDate']):
             self.year = article_info['Journal']['JournalIssue']['PubDate']['Year']
         else:
             self.year = ''
-        self.title = article_info['ArticleTitle'].encode('utf-8')
+        self.title = article_info['ArticleTitle'].strip("'")
         pagination = False
-        if article_info.has_key("Pagination"):
+        if "Pagination" in article_info :
             pagination = article_info['Pagination']
         self.journal_info = parse_journal(article_info['Journal'], pagination)
         if len(article_info["ELocationID"]):
-            self.link = unicode('https://doi.org/' + article_info['ELocationID'][-1])
+            self.link = str('https://doi.org/' + article_info['ELocationID'][-1])
         else:
             self.link = ''
         self.yml = '''- author: {}\n  title: "{} {}."\n  alt_link: "{}"\n  year: {}\n\n'''.format(self.first_author, self.title, self.journal_info, self.link, self.year)
