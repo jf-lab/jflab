@@ -1,4 +1,8 @@
 #each entry must have a #name, and #position, otherwise you can also include #current for where they are now
+- name: Chen Yan
+  position: PhD Student
+  current: Researcher, Google Deep Mind, London, UK
+
 - name: Julia Yu
   position: MSc Student
 
@@ -27,12 +31,17 @@
   position: Post-Doctoral Fellow
   current: Assistant Professor, University of Calgary, Canada
 
+- name: Colleen Gillon
+  position: MSc Student
+
+- name: Dano Morrison
+  position: MSc Student
+
 - name: Lyn Van Kampen
   position: MSc Student
 
 - name: Bonny Hou
   position: MSc Student
-  current: Dentistry, McGill University
 
 - name: Aijing Gao
   position: MSc Student
@@ -40,6 +49,9 @@
 - name: Adam Santoro
   position: PhD Student
   current: Researcher, Google Deep Mind, London, UK
+
+- name: Valentina Mercaldo
+  position: Post-Doctoral Fellow
 
 - name: Jana Husse
   position: Post-Doctoral Fellow
@@ -52,8 +64,14 @@
 - name: Yosuke Niibori
   position: Post-Doctoral Fellow
 
+- name: Adelaide Yiu
+  position: Post-Doctoral Fellow
+
 - name: Russell Smith
   position: Technician
+
+- name: Nicholas Theodoric
+  position: MSc Student
 
 - name: Xiaochen Hu
   position: MSc Student
