@@ -1,4 +1,7 @@
 #each entry must have a #name, and #position, otherwise you can also include #current for where they are now
+- name: Frances Xia
+  position: PhD Student
+  
 - name: Chen Yan
   position: PhD Student
   current: Researcher, Google Deep Mind, London, UK
