@@ -26,6 +26,6 @@ future: true
 exclude: [pdfs]
 keep_files: [pdfs]
 
-gems:
+plugins:
   - jemoji
   - jekyll-twitter-plugin
