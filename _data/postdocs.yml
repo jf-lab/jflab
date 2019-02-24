@@ -27,7 +27,6 @@
   pi: Josselyn
   contact:
   hometown: Daegu, South Korea
-  interests:
     -
   claim-to-fame: I am a father with two sons who have explosive energy and activity.
   favourite-thing: A challenge to a new unknown would.
@@ -38,7 +37,6 @@
   contact:
   pi: Josselyn
   hometown: Japan
-  interests:
     -
   claim-to-fame: 1) Almost all friends say ” Your son is practically a clone of you!”. 2) When I was a medical resident, I performed a medical check for a very famous Japanese national footballer.
   favourite-thing:
@@ -66,3 +64,10 @@
       - Hiking
       - Dogs
       - "Spotify: ampm001"
+      
+- name: Sylvie Lesuis
+  position: Post-Doc
+  contact:
+  pi: Joesselyn
+  img_id: sylvie.jpg
+  hometown: Amsterdam, The Netherlands
