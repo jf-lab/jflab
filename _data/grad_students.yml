@@ -162,3 +162,23 @@
       - Cats
       - Techno
       - Books
+      
+- name: Amber Penning
+  position: MSc Student
+  img_id: amber.jpg
+  pi: Frankland
+  hometown: Amsterdam, The Netherlands
+  interests:
+      - Dancing
+      - Reading
+      - Netflix  
+      
+- name: Nathalie Immerzeel
+  position: MSc Student
+  img_id: nathalie.jpg
+  pi: Josselyn
+  hometown: Amsterdam, The Netherlands
+  interests:
+      - Climbing
+      - Snowboarding
+      - Trekking        
