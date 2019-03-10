@@ -1,12 +1,3 @@
-- name: Axel Guskjolen
-  position: PhD Candidate
-  img_id: axel.jpg
-  contact:
-  pi: Frankland
-  hometown: Saskatoon, SK
-  interests:
-    - ":ant:"
-
 - name: Patrick Steadman
   position: PhD Candidate
   img_id: patrick.jpg
@@ -182,3 +173,16 @@
       - Climbing
       - Snowboarding
       - Trekking        
+
+- name: Matteo Saderi
+  position: PhD Student
+  img_id: matteo.jpg
+  pi: Frankland
+  contact:
+  hometown: Sardinia, Italy
+interests:
+      - Consciousness
+      - Volcanoes
+      - Astronomy 
+      
+      
