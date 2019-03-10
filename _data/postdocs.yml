@@ -65,6 +65,15 @@
       - Dogs
       - "Spotify: ampm001"
       
+- name: Axel Guskjolen
+  position: PhD Candidate
+  img_id: axel.jpg
+  contact:
+  pi: Frankland
+  hometown: Saskatoon, SK
+  interests:
+    - ":ant:"
+    
 - name: Sylvie Lesuis
   position: Post-Doc
   contact:
