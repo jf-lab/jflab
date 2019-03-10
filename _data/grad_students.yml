@@ -182,3 +182,16 @@
       - Climbing
       - Snowboarding
       - Trekking        
+
+- name: Matteo Saderi
+  position: PhD Student
+  img_id: matteo.jpg
+  pi: Frankland
+  contact:
+  hometown: Sardinia, Italy
+interests:
+      - Consciousness
+      - Volcanoes
+      - Astronomy 
+      
+      
