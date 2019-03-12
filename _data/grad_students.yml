@@ -104,7 +104,6 @@
       - Wushu
       - Vacationing
 
-
 - name: Lana Duan
   position: MSc Student
   img_id: lana.jpg
@@ -180,9 +179,18 @@
   pi: Frankland
   contact:
   hometown: Sardinia, Italy
-interests:
+  interests:
       - Consciousness
       - Volcanoes
       - Astronomy 
       
-      
+- name: Michela Solari
+  position: MSc Student
+  img_id: michela.jpg
+  pi: Frankland
+  contact:
+  hometown: Udine, Italy
+  interests:
+      - Food
+      - Trekking
+      - More food       
