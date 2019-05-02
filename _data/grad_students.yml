@@ -1,12 +1,3 @@
-- name: Axel Guskjolen
-  position: PhD Candidate
-  img_id: axel.jpg
-  contact:
-  pi: Frankland
-  hometown: Saskatoon, SK
-  interests:
-    - ":ant:"
-
 - name: Patrick Steadman
   position: PhD Candidate
   img_id: patrick.jpg
@@ -113,7 +104,6 @@
       - Wushu
       - Vacationing
 
-
 - name: Lana Duan
   position: MSc Student
   img_id: lana.jpg
@@ -162,3 +152,45 @@
       - Cats
       - Techno
       - Books
+      
+- name: Amber Penning
+  position: MSc Student
+  img_id: amber.jpg
+  pi: Frankland
+  hometown: Amsterdam, The Netherlands
+  interests:
+      - Dancing
+      - Reading
+      - Netflix  
+      
+- name: Nathalie Immerzeel
+  position: MSc Student
+  img_id: nathalie.jpg
+  pi: Josselyn
+  hometown: Amsterdam, The Netherlands
+  interests:
+      - Climbing
+      - Snowboarding
+      - Trekking        
+
+- name: Matteo Saderi
+  position: PhD Student
+  img_id: matteo.jpg
+  pi: Frankland
+  contact:
+  hometown: Sardinia, Italy
+  interests:
+      - Consciousness
+      - Volcanoes
+      - Astronomy 
+      
+- name: Michela Solari
+  position: Visiting MSc Student (UT)
+  img_id: michela.jpg
+  pi: Frankland
+  contact:
+  hometown: Udine, Italy
+  interests:
+      - Food
+      - Trekking
+      - More food       
