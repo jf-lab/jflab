@@ -1,4 +1,11 @@
 #each entry must have a #name, and #position, otherwise you can also include #current for where they are now
+- name: Andrin Abegg
+  position: Visiting MSc Student (ETH)
+
+- name: Brandon Walters
+  position: Research Associate
+  current: Assistant Professor, University of Toronto Mississauga, Canada
+
 - name: Frances Xia
   position: PhD Student
   
