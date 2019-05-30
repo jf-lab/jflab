@@ -143,16 +143,6 @@
   hometown:
   interests:
 
-- name: Andrin Abegg
-  position: Visiting MSc Student (ETH)
-  img_id: andrin.jpg
-  pi: Frankland
-  hometown: Zurich, Switzerland
-  interests:
-      - Cats
-      - Techno
-      - Books
-      
 - name: Amber Penning
   position: MSc Student
   img_id: amber.jpg
