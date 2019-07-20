@@ -73,16 +73,6 @@
     - Judo
     - Music
 
-- name: Jocelyn Lau
-  position: MSc Student
-  img_id: jocelyn.jpg
-  contact:
-  pi: Josselyn
-  hometown: Vancouver, BC
-  interests:
-  claim-to-fame: I’m a competitive hip-hop dancer and choreographer!
-  favourite-thing: It’s involves a bunch of humans who all have the same burning curiosity about the universe. Plus, we use our brains to study our brains, which is pretty weird.
-
 - name: Ying Wang
   position: PhD Student
   img_id: yingw.jpg
@@ -143,26 +133,6 @@
   hometown:
   interests:
 
-- name: Amber Penning
-  position: MSc Student
-  img_id: amber.jpg
-  pi: Frankland
-  hometown: Amsterdam, The Netherlands
-  interests:
-      - Dancing
-      - Reading
-      - Netflix  
-      
-- name: Nathalie Immerzeel
-  position: MSc Student
-  img_id: nathalie.jpg
-  pi: Josselyn
-  hometown: Amsterdam, The Netherlands
-  interests:
-      - Climbing
-      - Snowboarding
-      - Trekking        
-
 - name: Matteo Saderi
   position: PhD Student
   img_id: matteo.jpg
@@ -183,4 +153,5 @@
   interests:
       - Food
       - Trekking
-      - More food       
+      - More food  
+
