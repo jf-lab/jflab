@@ -1,4 +1,10 @@
 #each entry must have a #name, and #position, otherwise you can also include #current for where they are now
+- name: Amber Penning
+  position: MSc Student
+
+- name: Nathalie Immerzeel
+  position: MSc Student
+
 - name: Andrin Abegg
   position: Visiting MSc Student (ETH)
 
