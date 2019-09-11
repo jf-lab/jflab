@@ -66,7 +66,7 @@
 - name: Sylvie Lesuis
   position: Post-Doc
   contact:
-  pi: Joesselyn
+  pi: Josselyn
   img_id: sylvie.jpg
   hometown: Amsterdam, The Netherlands
   
@@ -81,8 +81,8 @@
       - Classic rock
       - Cooking indian food
       - Documentaries/Movies/TV series
-  
-- name: Antje Birkner
+      
+  - name: Antje Birkner
   position: Post-Doc
   contact:
   pi: Josselyn
@@ -91,4 +91,13 @@
   interests: 
       - Dancing
       - Mountain biking
-      
+ 
+ - name: Yunlong Liu
+  position: Post-Doc
+  contact:
+  pi: Frankland
+  img_id: yunlong.jpg
+  hometown: Beijing, China
+  interests: 
+      - Neurogenesis
+      - Forgetting
