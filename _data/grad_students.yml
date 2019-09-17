@@ -163,3 +163,14 @@
   hometown: Montreal, QC
   interests:
       - Football
+      
+- name: Annelies Hoorn
+  position: PhD Student
+  img_id: annelies.jpg
+  pi: Josselyn
+  contact:
+  hometown: Hoogeveen, The Netherlands
+  interests:
+      - :bee:
+      - philosophy
+      - hiking
