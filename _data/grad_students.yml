@@ -172,5 +172,27 @@
   hometown: Hoogeveen, The Netherlands
   interests:
       - ":bee:"
-      - philosophy
-      - hiking
+      - Philosophy
+      - Hiking
+      
+- name: Isaiah Samson
+  position: MSc Student
+  img_id:
+  pi: Frankland
+  contact:
+  hometown: Markham, ON
+  interests:
+      - basketball
+      - Travel
+      - Guitar      
+      
+- name: Thays Brenner dos Santos
+  position: Visiting PhD Student
+  img_id: thays.jpg
+  pi: Frankland
+  contact:
+  hometown: São Paulo, Brazil
+  interests:
+      - Arts
+      - Travelling
+      - Food      
