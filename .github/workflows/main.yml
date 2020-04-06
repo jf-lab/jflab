@@ -23,13 +23,21 @@ jobs:
       run: |
         python update_papers.py
       
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "Update publications" -a
+#    - name: Commit files
+#      run: |
+#        git config --local user.email "action@github.com"
+#        git config --local user.name "GitHub Action"
+#        git commit -m "Update publications" -a
         
-    - name: GitHub Push
-      uses: ad-m/github-push-action@v0.5.0
+#    - name: GitHub Push
+#      uses: ad-m/github-push-action@v0.5.0
+#      with:
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - uses: stefanzweifel/git-auto-commit-action@v4.1.2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        commit_message: Update publications
+        branch: ${{ github.head_ref }}
+        commit_user_name: GitHub Actions
+        commit_user_email: action@github.com
+        commit_author: Author <actions@github.com>
