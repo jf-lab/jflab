@@ -49,7 +49,7 @@
   favourite-thing: The feeling of satisfaction that comes from cracking a tough problem.
 
 - name: Andrew Mocle
-  position: PhD Student
+  position: PhD Candidate
   img_id: andrew.jpg
   contact:
   pi: Josselyn
@@ -62,7 +62,7 @@
   favourite-thing: Working at the interface between the ER and mitochondrial membrane
 
 - name: Sangyoon Ko
-  position: PhD Student
+  position: PhD Candidate
   img_id: sangyoon.jpg
   contact:
   pi: Frankland
@@ -103,21 +103,8 @@
   interests:
       - ":mahjong:"
 
-- name: Jeanne Inchauspé
-  position: MSc Student
-  img_id: jeanne.jpg
-  pi: Josselyn
-  contact:
-  hometown: Basque Country, France
-  interests:
-      - Music
-      - Ballet
-      - Swing
-      - Kickboxing
-      - Trekking
-
 - name: Rida Ansari
-  position: MSc Student
+  position: PhD Candidate
   img_id: rida.jpg
   pi: Frankland
   contact:
@@ -196,3 +183,28 @@
       - Arts
       - Travelling
       - Food      
+
+- name: Anaël Erhardt
+  position: MSc Student
+  img_id: anael.jpg
+  pi: Frankland
+  contact:
+  hometown: Périgord, France
+  interests:
+      - Trail
+      - Karate
+      - Pop/Rock
+      - Olive oil
+      - Nature & wild life
+      
+- name: Angela Zordan
+  position: Visiting MSc Student
+  img_id: angela.jpg
+  pi: Josselyn
+  contact:
+  hometown: Vicenza, Italy
+  interests:
+      - Semantic memory
+      - Mountains
+      - Coffee
+      - Rock/metal music 
