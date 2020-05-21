@@ -1,3 +1,58 @@
+- name: Adam Miller
+  position: Post-Doc
+  contact:
+  pi: Frankland
+  img_id: adamm.jpg
+  hometown: Chicago, IL
+  interests:
+      - Soccer
+      - Hiking
+      - Dogs
+      - "Spotify: ampm001"
+
+- name: Ankit Awasthi 
+  position: Post-Doc
+  contact:
+  pi: Frankland
+  img_id: ankit.jpg
+  hometown: Visakhapatnam, India
+  interests: 
+      - Running
+      - Classic rock
+      - Cooking indian food
+      - Documentaries/Movies/TV series
+
+- name: Antje Birkner
+  position: Post-Doc
+  contact:
+  pi: Josselyn
+  img_id: antje.jpg
+  hometown: Munich, Germany
+  interests: 
+      - Dancing
+      - Mountain biking
+
+- name: Axel Guskjolen
+  position: Post-Doc
+  img_id: axel.jpg
+  contact:
+  pi: Frankland
+  hometown: Saskatoon, SK
+  interests:
+    - ":ant:"
+
+- name: Cesar Coelho
+  position: Post-Doc
+  contact:
+  pi: Frankland
+  img_id: cesar.jpg
+  hometown: Sao Jose dos Campos, Brazil
+  interests:
+      - Capoeira
+      - Dancing
+      - ":bike:"
+      - Programming
+
 - name: Jagroop Dhaliwal
   position: Post-Doc
   contact:
@@ -29,39 +84,6 @@
     -
   claim-to-fame: 1) Almost all friends say ” Your son is practically a clone of you!”. 2) When I was a medical resident, I performed a medical check for a very famous Japanese national footballer.
   favourite-thing:
-
-- name: Axel Guskjolen
-  position: Post-Doc
-  img_id: axel.jpg
-  contact:
-  pi: Frankland
-  hometown: Saskatoon, SK
-  interests:
-    - ":ant:"
-    
-- name: Cesar Coelho
-  position: Post-Doc
-  contact:
-  pi: Frankland
-  img_id: cesar.jpg
-  hometown: Sao Jose dos Campos, Brazil
-  interests:
-      - Capoeira
-      - Dancing
-      - ":bike:"
-      - Programming
-
-- name: Adam Miller
-  position: Post-Doc
-  contact:
-  pi: Frankland
-  img_id: adamm.jpg
-  hometown: Chicago, IL
-  interests:
-      - Soccer
-      - Hiking
-      - Dogs
-      - "Spotify: ampm001"
     
 - name: Sylvie Lesuis
   position: Post-Doc
@@ -69,38 +91,6 @@
   pi: Josselyn
   img_id: sylvie.jpg
   hometown: Amsterdam, The Netherlands
-  
-- name: Ankit Awasthi 
-  position: Post-Doc
-  contact:
-  pi: Frankland
-  img_id: ankit.jpg
-  hometown: Visakhapatnam, India
-  interests: 
-      - Running
-      - Classic rock
-      - Cooking indian food
-      - Documentaries/Movies/TV series
-      
-- name: Antje Birkner
-  position: Post-Doc
-  contact:
-  pi: Josselyn
-  img_id: antje.jpg
-  hometown: Munich, Germany
-  interests: 
-      - Dancing
-      - Mountain biking
- 
-- name: Yunlong Liu
-  position: Post-Doc
-  contact:
-  pi: Frankland
-  img_id: yunlong.jpg
-  hometown: Beijing, China
-  interests: 
-      - Neurogenesis
-      - Forgetting
 
 - name: Tao Zhang
   position: Post-Doc
@@ -111,3 +101,13 @@
   interests: 
       - Cooking (Chinese food)
       - Running
+
+- name: Yunlong Liu
+  position: Post-Doc
+  contact:
+  pi: Frankland
+  img_id: yunlong.jpg
+  hometown: Beijing, China
+  interests: 
+      - Neurogenesis
+      - Forgetting
