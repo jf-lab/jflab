@@ -44,7 +44,8 @@
         <div class="row">
             <div class="col-sm-12 text-center">
             <h3>Techs & Staff</h3>
-             {% for member in site.data.staff %}
+                 {% assign sortedMembers = site.data.staff | sort: 'name' %}                  
+                 {% for member in sortedMembers %}
                  {% assign loopindex = forloop.index0 | modulo: 3 %}
                  {% if loopindex == 0 %}
                  {% if forloop.first == false %}
@@ -82,7 +83,8 @@
          <div class="row">
              <div class="col-sm-12 text-center">
              <h3>Research Associates</h3>
-          {% for member in site.data.researchassociates %}
+          {% assign sortedMembers = site.data.researchassociates | sort: 'name' %}                  
+          {% for member in sortedMembers %}
           {% assign loopindex = forloop.index0 | modulo: 3 %}
           {% if loopindex == 0 %}
           {% if forloop.first == false %}
@@ -120,7 +122,8 @@
          <div class="row">
              <div class="col-sm-12 text-center">
              <h3>Post-Doctoral Fellows</h3>
-          {% for member in site.data.postdocs %}
+          {% assign sortedMembers = site.data.postdocs | sort: 'name' %}
+          {% for member in sortedMembers %}
           {% assign loopindex = forloop.index0 | modulo: 3 %}
           {% if loopindex == 0 %}
           {% if forloop.first == false %}
@@ -158,7 +161,8 @@
          <div class="row">
               <div class="col-sm-12 text-center">
               <h3>Graduate Students</h3>
-           {% for member in site.data.grad_students %}
+           {% assign sortedMembers = site.data.grad_students | sort: 'name' %}
+           {% for member in sortedMembers %}
            {% assign loopindex = forloop.index0 | modulo: 3 %}
            {% if loopindex == 0 %}
            {% if forloop.first == false %}
