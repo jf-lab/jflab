@@ -218,7 +218,20 @@
                   <div class="team-member">
                       <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
                       <h4>{{ member.name }}</h4>
+                      <p class="text-muted">{{ member.position }}<br>
+                      <p class="text-muted">{{ member.pi }}<br>
+                      {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
+                      {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
+                      {% if member.interests %}
+                      <ul class="list-inline">
+                           Interests:<br>
+                          {% for interest in member.interests %}
+                          <li class="fa fa-long-arrow-right">&nbsp;{{ interest }}</li>
+                          {% endfor %}
+                      </ul>
+                      {% endif %}
                       </p>
+
                   </div>
               </div>
           {% if forloop.last == true %}
