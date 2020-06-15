@@ -1,19 +1,28 @@
-name: Workflows with large secrets
+name: Update Lab Members 
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  my-job:
-    name: My Job
+  fetch-changes:
+    name: Fetch Member Info
+
     runs-on: ubuntu-latest
+   
     steps:
       - uses: actions/checkout@v2
-      - name: Decrypt large secret
-        run: ./.github/scripts/decrypt_secret.sh
+      - name: Decrypt Google Credentials
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.5'
+          
+        run: ./.github/scripts/decrypt_cred.sh
         env:
-          LARGE_SECRET_PASSPHRASE: ${{ secrets.LARGE_SECRET_PASSPHRASE }}
-      # This command is just an example to show your secret being printed
-      # Ensure you remove any print statements of your secrets. GitHub does
-      # not hide secrets that use this workaround.
-      - name: Test printing your secret (Remove this step in production)
-        run: cat $HOME/secrets/my_secret.json
+          LARGE_SECRET_PASSPHRASE: ${{ secrets.CREDENTIALS_PASS }}
+      - name: run update_members
+        
+        run: python ./update_members.py $HOME/secrets/credentials.json
+
+

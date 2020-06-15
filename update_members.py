@@ -8,14 +8,14 @@ from oauth2client.service_account import ServiceAccountCredentials
 WORKBOOK = "jflab.ca"
 
 
-def download_data():
+def download_data(credentials_path):
     """Download data using the Google Sheets API"""
     scope = [
         "https://spreadsheets.google.com/feeds",
         "https://www.googleapis.com/auth/drive",
     ]
     credentials = ServiceAccountCredentials.from_json_keyfile_name(
-        "credentials.json", scope
+        credentials_path, scope
     )
     client = gspread.authorize(credentials)
 
@@ -49,6 +49,8 @@ def generate_site():
 
 
 if __name__ == "__main__":
-    download_data()
+    import sys
+    credentials_path = sys.argv()[-1]
+    download_data(credentials_path)
     generate_site()
     deploy_site()
