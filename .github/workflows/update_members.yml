@@ -13,11 +13,12 @@ jobs:
    
     steps:
       - uses: actions/checkout@v2
-      - name: Decrypt Google Credentials
+      - name: set-up python
         uses: actions/setup-python@v1
         with:
           python-version: '3.5'
-          
+      
+      - name: Decrypt Google Credentials
         run: ./.github/scripts/decrypt_cred.sh
         env:
           LARGE_SECRET_PASSPHRASE: ${{ secrets.CREDENTIALS_PASS }}
