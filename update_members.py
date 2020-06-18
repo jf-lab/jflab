@@ -1,11 +1,10 @@
 worksheet = "JFlab.ca Lab Member Information"
 
 import csv
-import yaml
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-WORKBOOK = "jflab.ca"
+WORKBOOK = "JFlab.ca Lab Member Information"
 
 
 def download_data(credentials_path):
@@ -27,30 +26,9 @@ def download_data(credentials_path):
         writer = csv.writer(f)
         writer.writerows(sheet_values)
 
-
-def generate_site():
-    """Generate _data/members.yml in local directory"""
-    print("Process data")
-
-    csv = csv.read("./_data/all_members.csv")
-    File.write('test.yaml', csv.to_yaml)
-    pp YAML.load_file('test.yaml')
-
-    with open(") as csv_file:
-        csv_reader = csv.DictReader(csv_file)
-        data = [row for row in csv_reader]
-
-    output = template.render(data=data)
-
-    with open("./_data/all_members.yml", "w") as f:
-        f.write(output)
-
-
-
+    print("Updated ./_data/all_members.csv")
 
 if __name__ == "__main__":
     import sys
-    credentials_path = sys.argv()[-1]
+    credentials_path = sys.argv[-1]
     download_data(credentials_path)
-    generate_site()
-    deploy_site()

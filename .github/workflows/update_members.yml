@@ -17,6 +17,9 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '3.5'
+
+      - name: install dependancies
+        run: pip install gspread oauth2client
           
         run: ./.github/scripts/decrypt_cred.sh
         env:

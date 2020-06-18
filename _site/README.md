@@ -1,6 +1,6 @@
-# Frankland Lab Website Maintenance
+# JF Lab Website Maintenance
 
-## Visit at [www.franklandlab.com](http://www.franklandlab.com)
+## Visit at [www.jflab.ca](http://jflab.ca)
 
 ## Requirements
 Options:
