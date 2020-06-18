@@ -26,7 +26,7 @@ jobs:
       - name: Decrypt Google Credentials
         run: ./.github/scripts/decrypt_cred.sh
         env:
-          LARGE_SECRET_PASSPHRASE: ${{ secrets.CREDENTIALS_PASS }}
+          CREDENTIALS_PASS: ${{ secrets.CREDENTIALS_PASS }}
       
       - name: Fetch and update member listing
         run: |
