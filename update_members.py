@@ -1,5 +1,6 @@
 worksheet = "JFlab.ca Lab Member Information"
 
+import pandas as pd
 import csv
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -26,9 +27,20 @@ def download_data(credentials_path):
         writer = csv.writer(f)
         writer.writerows(sheet_values)
 
-    print("Updated ./_data/all_members.csv")
+    df = pd.read_csv('./_data/all_members.csv', header=0)
+    int_cols = df.filter(like='interests')
+    df['interests'] =  int_cols.apply(
+        lambda x: x.str.cat(sep=','),
+        axis=1
+        )
+    df = df.drop(int_cols.columns, axis=1)
+    df.to_csv("./_data/members_processed.csv")
+    print("Updated ./_data/members_processed.csv")
+
 
 if __name__ == "__main__":
     import sys
     credentials_path = sys.argv[-1]
+    if 'json' not in credentials_path:
+        credentials_path = 'credentials.json'
     download_data(credentials_path)

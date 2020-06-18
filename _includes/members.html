@@ -48,7 +48,7 @@
 <div class="row">
     <div class="col-sm-12 text-center">
     <h3>Current Lab Members</h3>
-{% assign sortedMembers = site.data.all_members | sort: 'name' %}
+{% assign sortedMembers = site.data.members_processed | sort: 'name' %}
 {% for member in sortedMembers %}
 {% assign loopindex = forloop.index0 | modulo: 3 %}
 {% if loopindex == 0 %}
@@ -70,7 +70,8 @@
              {% if member.interests %}
              <ul class="list-inline">
                   Interests:<br>
-                 {% for interest in member.interests %}
+                 {% assign interests = member.interests | split: "," %}
+                 {% for interest in interests %}
                  <li class="fa fa-long-arrow-right">&nbsp;{{ interest }}</li>
                  {% endfor %}
              </ul>
