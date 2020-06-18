@@ -4,5 +4,10 @@
 .ipynb_checkpoints/
 
 .tweet-cache/
-
+credentials.json
 node_modules/
+
+Gemfile.lock
+
+_site/
+.jekyll-cache/

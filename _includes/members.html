@@ -40,201 +40,59 @@
                  </div>
                       {% endif %}
                       {% endfor %}
-<!--Tech/Staff-->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-            <h3>Techs & Staff</h3>
-                 {% assign sortedMembers = site.data.staff | sort: 'name' %}                  
-                 {% for member in sortedMembers %}
-                 {% assign loopindex = forloop.index0 | modulo: 3 %}
-                 {% if loopindex == 0 %}
-                 {% if forloop.first == false %}
-            </div>
-                 {% endif %}
-            <div class="row">
-            <div class="col-sm-4 col-sm-offset-1half">
-                {% else %}
-            <div class="col-sm-4">
-                {% endif %}
-                <div class="team-member">
-                     <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
-                     <h4>{{ member.name }}</h4>
-                     <p class="text-muted">{{ member.position }}<br>
-                     {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
-                     {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
-                     {% if member.interests %}
-                     <ul class="list-inline">
-                         Interests:<br>
-                         {% for interest in member.interests %}
-                         <li class="fa fa-long-arrow-right">&nbsp;{{ interest }}</li>
-                         {% endfor %}
-                     </ul>
-                     {% endif %}
-                     </p>
-                 </div>
-             </div>
-                {% if forloop.last == true %}
-            </div>
-                 {% endif %}
+<!--
+    
+    ALL MEMBERS
+
+-->
+<div class="row">
+    <div class="col-sm-12 text-center">
+    <h3>Current Lab Members</h3>
+{% assign sortedMembers = site.data.members_processed | sort: 'name' %}
+{% for member in sortedMembers %}
+{% assign loopindex = forloop.index0 | modulo: 3 %}
+{% if loopindex == 0 %}
+{% if forloop.first == false %}
+</div>
+ {% endif %}
+ <div class="row">
+     <div class="col-sm-4 col-sm-offset-1half">
+ {% else %}
+     <div class="col-sm-4">
+ {% endif %}
+         <div class="team-member">
+             <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
+             <h4>{{ member.name }}</h4>
+             <p class="text-muted">{{ member.position }}<br>
+             {% if member.pi %} <p class="text-muted">{{ member.pi }}<br>{% endif %}
+             {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
+             {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
+             {% if member.interests %}
+             <ul class="list-inline">
+                  Interests:<br>
+                 {% assign interests = member.interests | split: "," %}
+                 {% for interest in interests %}
+                 <li class="fa fa-long-arrow-right">&nbsp;{{ interest }}</li>
                  {% endfor %}
-
-<!--Trainees-->
-<!--Research Associates-->
-         <div class="row">
-             <div class="col-sm-12 text-center">
-             <h3>Research Associates</h3>
-          {% assign sortedMembers = site.data.researchassociates | sort: 'name' %}                  
-          {% for member in sortedMembers %}
-          {% assign loopindex = forloop.index0 | modulo: 3 %}
-          {% if loopindex == 0 %}
-          {% if forloop.first == false %}
-          </div>
-          {% endif %}
-          <div class="row">
-              <div class="col-sm-4 col-sm-offset-1half">
-          {% else %}
-              <div class="col-sm-4">
-          {% endif %}
-                  <div class="team-member">
-                      <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
-                      <h4>{{ member.name }}</h4>
-                      <p class="text-muted">{{ member.position }}<br>
-                      {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
-                      {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
-                      {% if member.interests %}
-                      <ul class="list-inline">
-                           Interests:<br>
-                          {% for interest in member.interests %}
-                          <li class="fa fa-long-arrow-right">&nbsp;{{ interest }}</li>
-                          {% endfor %}
-                      </ul>
-                      {% endif %}
-                      </p>
-                  </div>
-              </div>
-          {% if forloop.last == true %}
-          </div>
-          {% endif %}
-          {% endfor %}
-      </div>
-
-<!--Post-Docs-->
-         <div class="row">
-             <div class="col-sm-12 text-center">
-             <h3>Post-Doctoral Fellows</h3>
-          {% assign sortedMembers = site.data.postdocs | sort: 'name' %}
-          {% for member in sortedMembers %}
-          {% assign loopindex = forloop.index0 | modulo: 3 %}
-          {% if loopindex == 0 %}
-          {% if forloop.first == false %}
-          </div>
-          {% endif %}
-          <div class="row">
-              <div class="col-sm-4 col-sm-offset-1half">
-          {% else %}
-              <div class="col-sm-4">
-          {% endif %}
-                  <div class="team-member">
-                      <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
-                      <h4>{{ member.name }}</h4>
-                      <p class="text-muted">{{ member.position }}<br>
-                      <p class="text-muted">{{ member.pi }}<br>
-                      {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
-                      {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
-                      {% if member.interests %}
-                      <ul class="list-inline">
-                           Interests:<br>
-                          {% for interest in member.interests %}
-                          <li class="fa fa-long-arrow-right">&nbsp;{{ interest }}</li>
-                          {% endfor %}
-                      </ul>
-                      {% endif %}
-                      </p>
-                  </div>
-              </div>
-          {% if forloop.last == true %}
-          </div>
-          {% endif %}
-          {% endfor %}
-      </div>
-<!--Students-->
-         <div class="row">
-              <div class="col-sm-12 text-center">
-              <h3>Graduate Students</h3>
-           {% assign sortedMembers = site.data.grad_students | sort: 'name' %}
-           {% for member in sortedMembers %}
-           {% assign loopindex = forloop.index0 | modulo: 3 %}
-           {% if loopindex == 0 %}
-           {% if forloop.first == false %}
-           </div>
-           {% endif %}
-           <div class="row">
-               <div class="col-sm-4 col-sm-offset-1half">
-               {% else %}
-               <div class="col-sm-4">
-           {% endif %}
-                   <div class="team-member">
-                       {% if member.bitmoji %}
-                          <img alt="" class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id }}" onmouseover="this.src='img/team/{{ member.bitmoji }}'" onmouseout="this.src='img/team/{{ member.img_id }}'">
-                       {% else %}
-                          <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
-                       {% endif %}
-                       <h4>{{ member.name }}</h4>
-                       <p class="text-muted">{{ member.position }}<br>
-                       <p class="text-muted">{{ member.pi }}<br>
-                       {% if member.hometown %}<i>{{ member.hometown }}</i><br>{% endif %}
-                       {% if member.contact %}<i>{{ member.contact }}</i><br>{% endif %}
-                       {% if member.interests %}
-                       <ul class="list-inline">
-                           Interests:<br>
-                           {% for interest in member.interests %}
-                           <li class="fa fa-long-arrow-right">&nbsp;{{ interest }}</li>
-                           {% endfor %}
-                       </ul>
-                       {% endif %}
-                       </p>
-                   </div>
-               </div>
-           {% if forloop.last == true %}
-           </div>
-           {% endif %}
-           {% endfor %}
-       </div>
-<!--Undergraduates-->
-        <div class="row">
-             <div class="col-sm-12 text-center">
-             <h3>Undergraduate Students</h3>
-          {% for member in site.data.undergrads %}
-          {% assign loopindex = forloop.index0 | modulo: 4 %}
-          {% if loopindex == 0 %}
-          {% if forloop.first == false %}
-          </div>
-          {% endif %}
-          <div class="row">
-              <div class="col-sm-3 col-sm-offset-1half">
-              {% else %}
-              <div class="col-sm-3">
-          {% endif %}
-                  <div class="team-member">
-                      <img class="mx-auto team-img rounded-circle" src="img/team/{{ member.img_id}}" alt="">
-                      <h4>{{ member.name }}</h4>
-                      </p>
-                  </div>
-              </div>
-          {% if forloop.last == true %}
-          </div>
-          {% endif %}
-          {% endfor %}
-        </div>
+             </ul>
+             {% endif %}
+             </p>
+         </div>
+     </div>
+ {% if forloop.last == true %}
+ </div>
+ {% endif %}
+ {% endfor %}
+</div>
 <!--alumni-->
             <div class="row">
                  <div class="col-sm-12 text-center">
                     <h3>Where are they now?</h3>
-                    <p class="text-muted">Check out this map of former Jossenlyn/Frankland lab members who have assistant professor level positions around the world</p>
+                    <p class="text-muted">Check out this map of former Jossenlyn/Frankland lab members who have started their own labs around the world</p>
                     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1o7laQRnJB9Lz3m6v4yR7NNlQMFauHkg4" width="640" height="480"></iframe><br>
                 </div>
                 <div class="col-sm-12 text-center">
-                <a href="{{ site.url }}/alumni/"><h4>Click for a list of past members</h4></a>
+                <a href="{{ site.url }}/alumni/"><h4>Click for a list of all past members</h4></a>
                 </div>
             </div>
         </div>
