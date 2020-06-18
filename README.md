@@ -1,5 +1,7 @@
 # JF Lab Website Maintenance
 
+![CI](https://github.com/jf-lab/jflab/workflows/CI/badge.svg)
+
 ## Visit at [www.jflab.ca](http://jflab.ca)
 
 ## Requirements
