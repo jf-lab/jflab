@@ -16,7 +16,7 @@ Options:
 3. A [Github Account](https://github.com) (it's free!)
 4. Access to the [Github repo](https://github.com/linamnt/franklandlab) and Netlify.com
     - see previous administrator to add you
-5. Python 3.4+
+5. Python 3.5+
 
 
 ## Usage
@@ -44,10 +44,11 @@ websites template and won't apply to your website).
 > git push origin master
 ```
 
+The `main.yml` GA Workflow file also automatically checks for new publications and adds them to the website on `push` to `master`. 
+
 ### Changing Members
-In the `_data/` folder, there are four files, pi.yml, techs.yml, grad_students.yml, and alumni.yml
-Edit each as appropriate.
-`img_id` must match the name of the member photo in the img/ folder (plus file extension, e.g. `img_id: paul.png`)
+1. **Edit the lab member info google spreadsheet.** There is a shared google spreadsheet for lab members to update their own information. Please ask the current site administrator for acess. The website will update the repo data on `push` to `master` via GitHub Actions.
+2. **Add the member's image file to img/ folder** The image filename must match `img_id` for the member in the spreadsheet (e.g. `img_id: paul.png`). Images should also be square in dimensions to prevent warping. Common image file types accepted (.jpeg, .png).
 
 ### Making a new page
 
