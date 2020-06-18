@@ -7,25 +7,29 @@ on:
 
 jobs:
   fetch-changes:
-    name: Fetch Member Info
+    name: Update member listing
 
     runs-on: ubuntu-latest
    
     steps:
       - uses: actions/checkout@v2
-      - name: Decrypt Google Credentials
+      - name: set-up python
         uses: actions/setup-python@v1
         with:
           python-version: '3.5'
 
-      - name: install dependancies
-        run: pip install gspread oauth2client
-          
+      - name: Install dependancies
+        run: |
+          python -m pip install --upgrade pip
+          pip install gspread oauth2client pandas
+
+      - name: Decrypt Google Credentials
         run: ./.github/scripts/decrypt_cred.sh
         env:
           LARGE_SECRET_PASSPHRASE: ${{ secrets.CREDENTIALS_PASS }}
-      - name: run update_members
-        
-        run: python ./update_members.py $HOME/secrets/credentials.json
+      
+      - name: Fetch and update member listing
+        run: |
+          python ./update_members.py $HOME/secrets/credentials.json
 
 
