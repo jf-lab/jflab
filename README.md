@@ -1,6 +1,6 @@
 # JF Lab Website Maintenance
 
-![CI](https://github.com/jf-lab/jflab/workflows/CI/badge.svg)
+![CI](https://github.com/jf-lab/jflab/workflows/CI/badge.svg) ![Update Lab Members](https://github.com/jf-lab/jflab/workflows/Update%20Lab%20Members/badge.svg)
 
 ## Visit at [www.jflab.ca](http://jflab.ca)
 
