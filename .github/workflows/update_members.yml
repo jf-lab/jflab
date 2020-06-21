@@ -32,4 +32,10 @@ jobs:
         run: |
           python ./update_members.py $HOME/secrets/credentials.json
 
-
+      - uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          commit_message: Update members
+          branch: ${{ github.head_ref }}
+          commit_user_name: GitHub Actions
+          commit_user_email: action@github.com
+          commit_author: Author <actions@github.com>
