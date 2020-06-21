@@ -1,42 +1,37 @@
-,name,section,position,img_id,contact,pi,hometown,interests
-0,Adam Miller,postdoc,Post-Doc,adamm.jpg,,Frankland,"Chicago, IL","Soccer,Hiking,Dogs,Spotify: ampm001"
-1,Adam Ramsaran,gradstudent,PhD Candidate,adamr.jpg,,Frankland,"Newark, Delaware","Womp it Up (Podcast),Veep,HRC"
-2,Alex Jacob,gradstudent,PhD Candidate,alex.jpg,,Josselyn,"Edmonton, AB",
-3,Ali Golbabaei,gradstudent,PhD Student,ali.png,,Frankland,,
-4,Amy Yeung,gradstudent,MSc Student,amy.jpg,,Frankland,"Brampton, ON","Food (of all types),Wushu,Vacationing"
-5,Anaël Erhardt,gradstudent,MSc Student,anael.jpg,,Frankland,"Périgord, France","Trail,Karate,Pop/Rock,Olive oil"
-6,Andrew Mocle,gradstudent,PhD Candidate,andrew.jpg,,Josselyn,"Toronto, ON","Squash,Melodica,Too Much Tuna"
-7,Angela Zordan,gradstudent,Visiting MSc Student,angela.jpg,,Josselyn,"Vicenza, Italy","Semantic memory,Mountains,Coffee,Rock/metal music"
-8,Ankit Awasthi,postdoc,Post-Doc,ankit.jpg,,Frankland,"Visakhapatnam, India","Running,Classic rock,Cooking indian food,Documentaries/Movies/TV series"
-9,Annelies Hoorn,gradstudent,PhD Student,annelies.jpg,,Josselyn,"Hoogeveen, The Netherlands",":bee:,Philosophy,Hiking"
-10,Antje Birkner,postdoc,Post-Doc,antje.jpg,,Josselyn,"Munich, Germany","Dancing,Mountain biking"
-11,Axel Guskjolen,postdoc,Post-Doc,axel.jpg,,Frankland,"Saskatoon, SK",:ant:
-12,Cesar Coelho,postdoc,Post-Doc,cesar.jpg,,Frankland,"Sao Jose dos Campos, Brazil","Capoeira,Dancing,:bike:,Programming"
-13,Daisy Lin,staff,Lab Technician,daisy.jpg,,,"Beijing, China",
-14,Emily Kramer,gradstudent,PhD Candidate,emily.jpg,,Josselyn,"Hampton, ON",
-15,Hakum Lim (Josselyn),undergrad,,,,,,
-16,Isaiah Samson,gradstudent,MSc Student,isaiah.jpg,,Frankland,"Markham, ON","basketball,Travel,Guitar"
-17,Jagroop Dhaliwal,postdoc,Post-Doc,jagroop.jpg,,Frankland,"New Delhi, India; Ottawa, ON","Reading,Food (desserts),Watching hockey,Movies"
-18,Jocelyn Lau,staff,Lab Technician,jocelyn.jpg,,,"Vancouver, BC",
-19,Julia Gallucci (Frankland),undergrad,,,,,,
-20,Jung Hoon Jung,postdoc,Post-Doc,jung.jpg,,Josselyn,"Daegu, South Korea
--",
-21,Lana Duan,gradstudent,MSc Student,lana.jpg,,Frankland,"Kunming, China",:mahjong:
-22,Lina Tran,gradstudent,PhD Candidate,lina.jpg,,Frankland,"Toronto, ON","Music,Design,:cactus:"
-23,Lulu Liu (Frankland),undergrad,,,,,,
-24,Matteo Saderi,gradstudent,PhD Student,matteo.jpg,,Frankland,"Sardinia, Italy","Consciousness,Volcanoes,Astronomy"
-25,Mika Yamamoto,staff,Lab Technician,mika.jpg,,,"Osaka, Japan",
-26,Mryam Ali (Josselyn),undergrad,,,,,,
-27,Naohide Kondo,postdoc,Post-Doc,naohide.jpg,,Josselyn,"Japan
--",
-28,Naomi Niederhoffer,gradstudent,PhD Student,naomi.jpg,,Josselyn,"Montreal, QC",Football
-29,Patrick Steadman,gradstudent,PhD Candidate,patrick.jpg,,Frankland,"Etobicoke, ON",:bike:
-30,Rida Ansari,gradstudent,PhD Candidate,rida.jpg,,Frankland,"Karachi, Pakistan",:tropical_fish:
-31,Sandy Ma (Frankland),undergrad,,,,,,
-32,Sangyoon Ko,gradstudent,PhD Candidate,sangyoon.jpg,,Frankland,"Jeju, Korea","Soccer,Baseball,Judo,Music"
-33,Sylvie Lesuis,postdoc,Post-Doc,sylvie.jpg,,Josselyn,"Amsterdam, The Netherlands",
-34,Tao Zhang,postdoc,Post-Doc,tao.jpg,,Josselyn,"Jiangsu, China","Cooking (Chinese food),Running"
-35,Thays Brenner dos Santos,gradstudent,Visiting PhD Student,thays.jpg,,Frankland,"São Paulo, Brazil","Arts,Travelling,Food"
-36,Toni DeCristofaro,staff,Lab Manager,toni.jpg,,,"Toronto, Ontario",
-37,Ying Wang,gradstudent,PhD Candidate,yingw.jpg,,Josselyn,"Nanjing, China",
-38,Yunlong Liu,postdoc,Post-Doc,yunlong.jpg,,Frankland,"Beijing, China","Neurogenesis,Forgetting"
+,name,position,img_id,contact,pi,hometown,interests
+0,Julia Gallucci,Honors Thesis Student,,,Frankland,,
+1,Mryam Ali,Research Assistant,,,Josselyn,,
+2,Sandy Ma,Research Assistant,,,Frankland,"Montreal, QC","Eating,Ultimate Frisbee,Sleeping"
+3,Daisy Lin,Lab Technician,daisy.jpg,,,"Beijing, China",
+4,Jocelyn Lau,Lab Technician,jocelyn.jpg,,,"Vancouver, BC",
+5,Mika Yamamoto,Lab Technician,mika.jpg,,,"Osaka, Japan",
+6,Toni DeCristofaro,Lab Manager,toni.jpg,,,"Toronto, Ontario",
+7,Adam Miller,Post-Doc,adamm.jpg,,Frankland,"Chicago, IL","Soccer,Hiking,Dogs,Spotify: ampm001"
+8,Ankit Awasthi,Post-Doc,ankit.jpg,,Frankland,"Visakhapatnam, India","Running,Classic rock,Cooking indian food,Documentaries/Movies/TV series"
+9,Antje Birkner,Post-Doc,antje.jpg,,Josselyn,"Munich, Germany","Dancing,Mountain biking"
+10,Axel Guskjolen,Post-Doc,axel.jpg,,Frankland,"Saskatoon, SK",:ant:
+11,Cesar Coelho,Post-Doc,cesar.jpg,,Frankland,"Sao Jose dos Campos, Brazil","Capoeira,Dancing,:bike:,Programming"
+12,Jagroop Dhaliwal,Post-Doc,jagroop.jpg,,Frankland,"New Delhi, India; Ottawa, ON","Reading,Food (desserts),Watching hockey,Movies"
+13,Jung Hoon Jung,Post-Doc,jung.jpg,,Josselyn,"Daegu, South Korea",
+14,Sylvie Lesuis,Post-Doc,sylvie.jpg,,Josselyn,"Amsterdam, The Netherlands",
+15,Tao Zhang,Post-Doc,tao.jpg,,Josselyn,"Jiangsu, China","Cooking (Chinese food),Running"
+16,Yunlong Liu,Post-Doc,yunlong.jpg,,Frankland,"Beijing, China","Neurogenesis,Forgetting"
+17,Adam Ramsaran,PhD Candidate,adamr.jpg,,Frankland,"Newark, Delaware","Womp it Up (Podcast),Veep,HRC"
+18,Alex Jacob,PhD Candidate,alex.jpg,,Josselyn,"Edmonton, AB",
+19,Ali Golbabaei,PhD Student,ali.png,,Frankland,,
+20,Amy Yeung,MSc Student,amy.jpg,,Frankland,"Brampton, ON","Food (of all types),Wushu,Vacationing"
+21,Anaël Erhardt,MSc Student,anael.jpg,,Frankland,"Périgord, France","Trail,Karate,Pop/Rock,Olive oil"
+22,Andrew Mocle,PhD Candidate,andrew.jpg,,Josselyn,"Toronto, ON","Squash,Melodica,Too Much Tuna"
+23,Angela Zordan,Visiting MSc Student,angela.jpg,,Josselyn,"Vicenza, Italy","Semantic memory,Mountains,Coffee,Rock/metal music"
+24,Annelies Hoorn,PhD Student,annelies.jpg,,Josselyn,"Hoogeveen, The Netherlands",":bee:,Philosophy,Hiking"
+25,Emily Kramer,PhD Candidate,emily.jpg,,Josselyn,"Hampton, ON",
+26,Isaiah Samson,MSc Student,isaiah.jpg,,Frankland,"Markham, ON","Basketball,Travel,Guitar"
+27,Lana Duan,MSc Student,lana.jpg,,Frankland,"Kunming, China",:mahjong:
+28,Lina Tran,PhD Candidate,lina.jpg,,Frankland,"Toronto, ON",":musical_score:,:art:,:cat:"
+29,Matteo Saderi,PhD Student,matteo.jpg,,Frankland,"Sardinia, Italy","Consciousness,Volcanoes,Astronomy"
+30,Naomi Niederhoffer,PhD Student,naomi.jpg,,Josselyn,"Montreal, QC",Football
+31,Patrick Steadman,MD/PhD,patrick.jpg,,Frankland,"Etobicoke, ON",:bike:
+32,Rida Ansari,PhD Candidate,rida.jpg,,Frankland,"Karachi, Pakistan",:tropical_fish:
+33,Sangyoon Ko,PhD Candidate,sangyoon.jpg,,Frankland,"Jeju, Korea","Soccer,Baseball,Judo,Music"
+34,Thays Brenner dos Santos,Visiting PhD Student,thays.jpg,,Frankland,"São Paulo, Brazil","Arts,Travelling,Food"
+35,Ying Wang,PhD Candidate,yingw.jpg,,Josselyn,"Nanjing, China",
