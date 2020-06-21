@@ -18,7 +18,7 @@ Options:
 3. A [Github Account](https://github.com) (it's free!)
 4. Access to the [Github repo](https://github.com/linamnt/franklandlab) and Netlify.com
     - see previous administrator to add you
-5. Python 3.5+
+5. Python 3.6+ (if using 3.4/3.5, you need to remove any f-strings)
 
 
 ## Usage
