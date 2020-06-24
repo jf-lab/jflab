@@ -1,6 +1,9 @@
 name: Update Lab Members 
 
 on:
+  issues:
+    types: 
+      - unlocked
   push:
     branches:
       - master
