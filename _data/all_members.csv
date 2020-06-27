@@ -1,21 +1,5 @@
 name,position,img_id,contact,pi,hometown,interests-1,interests-2,interests-3,interests-4
-Julia Gallucci,Honors Thesis Student,,,Frankland,,,,,
-Mryam Ali,Research Assistant,,,Josselyn,,,,,
-Sandy Ma,Research Assistant,,,Frankland,"Montreal, QC",Eating,Ultimate Frisbee,Sleeping,
-Daisy Lin,Lab Technician,daisy.jpg,,,"Beijing, China",,,,
-Jocelyn Lau,Lab Technician,jocelyn.jpg,,,"Vancouver, BC",,,,
-Mika Yamamoto,Lab Technician,mika.jpg,,,"Osaka, Japan",,,,
-Toni DeCristofaro,Lab Manager,toni.jpg,,,"Toronto, Ontario",,,,
 Adam Miller,Post-Doc,adamm.jpg,,Frankland,"Chicago, IL",Soccer,Hiking,Dogs,Spotify: ampm001
-Ankit Awasthi,Post-Doc,ankit.jpg,,Frankland,"Visakhapatnam, India",Running,Classic rock,Cooking indian food,Documentaries/Movies/TV series
-Antje Birkner,Post-Doc,antje.jpg,,Josselyn,"Munich, Germany",Dancing,Mountain biking,,
-Axel Guskjolen,Post-Doc,axel.jpg,,Frankland,"Saskatoon, SK",:ant:,,,
-Cesar Coelho,Post-Doc,cesar.jpg,,Frankland,"Sao Jose dos Campos, Brazil",Capoeira,Dancing,:bike:,Programming
-Jagroop Dhaliwal,Post-Doc,jagroop.jpg,,Frankland,"New Delhi, India; Ottawa, ON",Reading,Food (desserts),Watching hockey,Movies
-Jung Hoon Jung,Post-Doc,jung.jpg,,Josselyn,"Daegu, South Korea",,,,
-Sylvie Lesuis,Post-Doc,sylvie.jpg,,Josselyn,"Amsterdam, The Netherlands",,,,
-Tao Zhang,Post-Doc,tao.jpg,,Josselyn,"Jiangsu, China",Cooking (Chinese food),Running,,
-Yunlong Liu,Post-Doc,yunlong.jpg,,Frankland,"Beijing, China",Neurogenesis,Forgetting,,
 Adam Ramsaran,PhD Candidate,adamr.jpg,,Frankland,"Newark, Delaware",Womp it Up (Podcast),Veep,HRC,
 Alex Jacob,PhD Candidate,alex.jpg,,Josselyn,"Edmonton, AB",,,,
 Ali Golbabaei,PhD Student,ali.png,,Frankland,,,,,
@@ -23,17 +7,33 @@ Amy Yeung,MSc Student,amy.jpg,,Frankland,"Brampton, ON",Food (of all types),Wush
 Anaël Erhardt,MSc Student,anael.jpg,,Frankland,"Périgord, France",Trail,Karate,Pop/Rock,Olive oil
 Andrew Mocle,PhD Candidate,andrew.jpg,,Josselyn,"Toronto, ON",Squash,Melodica,Too Much Tuna,
 Angela Zordan,Visiting MSc Student,angela.jpg,,Josselyn,"Vicenza, Italy",Semantic memory,Mountains,Coffee,Rock/metal music
+Ankit Awasthi,Post-Doc,ankit.jpg,,Frankland,"Visakhapatnam, India",Running,Classic rock,Cooking indian food,Documentaries/Movies/TV series
 Annelies Hoorn,PhD Student,annelies.jpg,,Josselyn,"Hoogeveen, The Netherlands",:bee:,Philosophy,Hiking,
+Antje Birkner,Post-Doc,antje.jpg,,Josselyn,"Munich, Germany",Dancing,Mountain biking,,
+Asim Rashid,Research Associate,asim_bb.jpg,,Josselyn,"Kingston, ON",,,,
+Axel Guskjolen,Post-Doc,axel.jpg,,Frankland,"Saskatoon, SK",:ant:,,,
+Cesar Coelho,Post-Doc,cesar.jpg,,Frankland,"Sao Jose dos Campos, Brazil",Capoeira,Dancing,:bike:,Programming
+Daisy Lin,Lab Technician,daisy.jpg,,,"Beijing, China",,,,
 Emily Kramer,PhD Candidate,emily.jpg,,Josselyn,"Hampton, ON",,,,
 Isaiah Samson,MSc Student,isaiah.jpg,,Frankland,"Markham, ON",Basketball,Travel,Guitar,
+Jagroop Dhaliwal,Post-Doc,jagroop.jpg,,Frankland,"New Delhi, India; Ottawa, ON",Reading,Food (desserts),Watching hockey,Movies
+Jocelyn Lau,Lab Technician,jocelyn.jpg,,,"Vancouver, BC",,,,
+Julia Gallucci,Honors Thesis Student,,,Frankland,,,,,
+Jung Hoon Jung,Post-Doc,jung.jpg,,Josselyn,"Daegu, South Korea",,,,
 Lana Duan,MSc Student,lana.jpg,,Frankland,"Kunming, China",:mahjong:,,,
 Lina Tran,PhD Candidate,lina.jpg,,Frankland,"Toronto, ON",:musical_score:,:art:,:cat:,
 Matteo Saderi,PhD Student,matteo.jpg,,Frankland,"Sardinia, Italy",Consciousness,Volcanoes,Astronomy,
+Mika Yamamoto,Lab Technician,mika.jpg,,,"Osaka, Japan",,,,
+Mryam Ali,Research Assistant,,,Josselyn,,,,,
 Naomi Niederhoffer,PhD Student,naomi.jpg,,Josselyn,"Montreal, QC",Football,,,
 Patrick Steadman,MD/PhD,patrick.jpg,,Frankland,"Etobicoke, ON",:bike:,,,
 Rida Ansari,PhD Candidate,rida.jpg,,Frankland,"Karachi, Pakistan",:tropical_fish:,,,
+Sandy Ma,Research Assistant,,,Frankland,"Montreal, QC",Eating,Ultimate Frisbee,Sleeping,
 Sangyoon Ko,PhD Candidate,sangyoon.jpg,,Frankland,"Jeju, Korea",Soccer,Baseball,Judo,Music
-Thays Brenner dos Santos,Visiting PhD Student,thays.jpg,,Frankland,"São Paulo, Brazil",Arts,Travelling,Food,
-Ying Wang,PhD Candidate,yingw.jpg,,Josselyn,"Nanjing, China",,,,
 Sungmo Park,Post-Doc,sungmo.jpg,,Josselyn,"Seoul, Korea",Photography,Movie maker,my kids,
-Asim Rashid,Research Associate,asim_bb.jpg,,Josselyn,"Kingston, ON",,,,
+Sylvie Lesuis,Post-Doc,sylvie.jpg,,Josselyn,"Amsterdam, The Netherlands",,,,
+Tao Zhang,Post-Doc,tao.jpg,,Josselyn,"Jiangsu, China",Cooking (Chinese food),Running,,
+Thays Brenner dos Santos,Visiting PhD Student,thays.jpg,,Frankland,"São Paulo, Brazil",Arts,Travelling,Food,
+Toni DeCristofaro,Lab Manager,toni.jpg,,,"Toronto, Ontario",,,,
+Ying Wang,PhD Candidate,yingw.jpg,,Josselyn,"Nanjing, China",basketball,music,food,
+Yunlong Liu,Post-Doc,yunlong.jpg,,Frankland,"Beijing, China",Neurogenesis,Forgetting,,
