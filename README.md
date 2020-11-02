@@ -1,5 +1,7 @@
 # JF Lab Website Maintenance
 
+![CI](https://github.com/jf-lab/jflab/workflows/CI/badge.svg) ![Update Lab Members](https://github.com/jf-lab/jflab/workflows/Update%20Lab%20Members/badge.svg)
+
 ## Visit at [www.jflab.ca](http://jflab.ca)
 
 ## Requirements
@@ -16,7 +18,7 @@ Options:
 3. A [Github Account](https://github.com) (it's free!)
 4. Access to the [Github repo](https://github.com/linamnt/franklandlab) and Netlify.com
     - see previous administrator to add you
-5. Python 3.5+
+5. Python 3.6+ (if using 3.4/3.5, you need to remove any f-strings)
 
 
 ## Usage
