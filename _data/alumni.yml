@@ -1,4 +1,10 @@
-- name: Anaël Erhardt
+- name: Angela Zordan
+  position: Visiting MSc Student 
+
+- name: Amy Yeung
+  position: MSc Student 
+  
+  - name: Anaël Erhardt
   position: Visiting MSc Student
 
 - name: Julia Gallucci
@@ -7,8 +13,6 @@
 - name: Sandy Ma
   position: Research Assistant
 
-- name: Angela Zordan
-  position: Visiting MSc Student 
 
 - name: Lana Duan
   position: MSc Student
@@ -79,7 +83,7 @@
   position: MSc Student
 
 - name: Lyn Van Kampen
-  position: MSc Student
+  position: MA Student
 
 - name: Bonny Hou
   position: MSc Student
