@@ -4,6 +4,9 @@ on:
   push:
     branches: 
       - master
+  issues:
+    types: 
+      - unlocked
   schedule:
     # * is a special character in YAML so you have to quote this string
     # set to run every month
