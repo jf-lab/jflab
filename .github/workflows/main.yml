@@ -34,7 +34,7 @@ jobs:
         python update_papers.py
   
         
-    - uses: stefanzweifel/git-auto-commit-action@v4.1.2
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Update publications
         branch: ${{ github.head_ref }}
