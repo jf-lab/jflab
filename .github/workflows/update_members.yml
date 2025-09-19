@@ -38,7 +38,7 @@ jobs:
         run: |
           python ./update_members.py $HOME/secrets/credentials.json
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: Update members
           branch: ${{ github.head_ref }}
